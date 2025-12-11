@@ -1,0 +1,12 @@
+yolo/app/zip_files
+yolo/app/data
+yolo/app/runs
+yolo/app/train
+yolo/app/val
+yolo/app/yolo_service/uploaded_vis
+yolo/app/yolo_service/uploaded
+paddle/app/output
+labelU/data
+agents/app/extracted_results
+agents/app/output
+agents/app/upload_pdf
