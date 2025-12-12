@@ -10,3 +10,4 @@ labelU/data
 agents/app/extracted_results
 agents/app/output
 agents/app/upload_pdf
+*.pt
