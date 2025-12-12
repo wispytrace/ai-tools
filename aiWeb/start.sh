@@ -36,10 +36,10 @@ echo "🚀 启动容器 $CONTAINER_NAME 并运行 VUE 服务..."
 docker run -d \
   --name "$CONTAINER_NAME" \
   -p 9000:8080 \
-  --gpus all \
   -v "$(pwd)"/app:/root/app \
+  -w /root/app/ai-tools-frontend \
   "$IMAGE_NAME" \
-  tail -f /dev/null
+  npm run dev
 
 if [ $? -eq 0 ]; then
     echo "🎉 容器已成功启动！"
