@@ -1,0 +1,165 @@
+/* src/styles/layout.css */
+
+.app-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* 左侧导航栏 */
+.sidebar {
+    width: 240px;
+    background: radial-gradient(circle at top, #020617 0, #000000 60%);
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 18px;
+    border-right: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.sidebar-header {
+    padding: 4px 4px 20px;
+    border-bottom: 1px solid rgba(30, 64, 175, 0.6);
+    margin-bottom: 16px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #e5e7eb;
+}
+
+/* 可以做一个小副标题 */
+.sidebar-header::after {
+    content: 'FastAPI · AI Tools';
+    display: block;
+    margin-top: 4px;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+/* 导航 */
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 12px;
+}
+
+.nav-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    border-radius: 999px;
+    color: #d1d5db;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition:
+        background 0.18s ease,
+        color 0.18s ease,
+        transform 0.06s ease;
+}
+
+.nav-link::before {
+    /* 左侧小圆点 */
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    margin-right: 8px;
+    background-color: transparent;
+    transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.nav-link:hover {
+    background: rgba(30, 64, 175, 0.5);
+    transform: translateX(1px);
+}
+
+.nav-link.active {
+    background: linear-gradient(135deg, #38bdf8, #6366f1);
+    color: #f9fafb;
+}
+
+.nav-link.active::before {
+    background-color: #f9fafb;
+    transform: scale(1.4);
+}
+
+/* 右侧主内容区域 */
+.main-content {
+    flex: 1;
+    padding: 28px 36px;
+    overflow-y: auto;
+}
+
+.api-interface-view,
+.about-view {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* 卡片列表 */
+.api-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* 响应式：窄屏时侧边栏缩小或折叠 */
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 16px;
+    }
+
+    .sidebar-header {
+        border-bottom: none;
+        margin: 0;
+        padding-right: 16px;
+    }
+
+    .sidebar-header::after {
+        display: none;
+    }
+
+    .sidebar-nav {
+        flex-direction: row;
+        gap: 10px;
+        padding-top: 0;
+        margin-left: auto;
+    }
+
+    .main-content {
+        padding: 16px 16px 24px;
+    }
+}
+
+/* 视图容器 */
+.api-interface-view,
+.about-view {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* 列表布局 */
+.api-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

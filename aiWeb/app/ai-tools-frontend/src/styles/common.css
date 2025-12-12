@@ -1,0 +1,72 @@
+/* src/styles/common.css */
+
+:root {
+  --bg-body: #f5f7fb;
+  --bg-sidebar: #1f2933;
+  --bg-card: #ffffff;
+  --border-color: #e5e7eb;
+  --accent: #2563eb;
+  --accent-soft: rgba(37, 99, 235, 0.1);
+  --accent-hover: #1d4ed8;
+  --text-main: #111827;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --error: #dc2626;
+  --radius-lg: 12px;
+  --radius-md: 8px;
+  --shadow-soft: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui,
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+}
+
+/* 通用标题、文字样式 */
+.page-title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.page-subtitle {
+  margin: 0 0 24px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.section-title {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.error-text {
+  color: var(--error);
+  font-size: 13px;
+  margin-left: 12px;
+}
+
+.placeholder-text {
+  font-size: 14px;
+  color: var(--text-muted);
+}
