@@ -1,0 +1,126 @@
+/* src/styles/components/ApiFilterBar.css */
+
+.api-filter-bar {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+}
+
+.api-filter-bar .filter-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+.api-filter-bar .filter-row--top {
+  margin-bottom: 16px;
+}
+
+.api-filter-bar .filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 150px;
+}
+
+.api-filter-bar .filter-item label {
+  font-size: 14px;
+  color: #374151;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* 统一输入控件样式 */
+.api-filter-bar .filter-item select,
+.api-filter-bar .filter-item input {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+/* 悬停效果 */
+.api-filter-bar .filter-item select:hover,
+.api-filter-bar .filter-item input:hover {
+  border-color: #9ca3af;
+}
+
+/* 聚焦效果（增强视觉反馈） */
+.api-filter-bar .filter-item select:focus,
+.api-filter-bar .filter-item input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* 关键字输入框：稍宽，突出主搜索 */
+.api-filter-bar .keyword-item {
+  flex: 1;
+  min-width: 220px;
+}
+
+/* 按钮组 */
+.api-filter-bar .button-group {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+.api-filter-bar .btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 72px;
+  text-align: center;
+}
+
+/* 重置按钮 */
+.api-filter-bar .btn--reset {
+  background: #f3f4f6;
+  color: #4b5563;
+}
+
+.api-filter-bar .btn--reset:hover {
+  background: #e5e7eb;
+  color: #1f2937;
+}
+
+/* 查找按钮（主操作） */
+.api-filter-bar .btn--search {
+  background: #3b82f6;
+  color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.api-filter-bar .btn--search:hover {
+  background: #2563eb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.api-filter-bar .btn--search:active {
+  transform: translateY(1px);
+}
+
+/* 响应式：小屏下按钮堆叠 */
+@media (max-width: 768px) {
+  .api-filter-bar .filter-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .api-filter-bar .button-group {
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+}

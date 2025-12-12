@@ -8,6 +8,7 @@ import './styles/common.css';
 import './styles/layout.css';
 import './styles/card.css';
 import './styles/api-card.css';
+import './styles/api-filter.css'
 
 const app = createApp(App);
 app.use(router);

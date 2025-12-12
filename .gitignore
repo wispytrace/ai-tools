@@ -10,4 +10,7 @@ labelU/data
 agents/app/extracted_results
 agents/app/output
 agents/app/upload_pdf
+pdftool/app/upload
+pdftool/app/output
+pdftool/app/merged
 *.pt

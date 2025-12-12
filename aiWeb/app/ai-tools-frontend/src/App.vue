@@ -2,7 +2,7 @@
   <div class="app-container">
     <aside class="sidebar">
       <div class="sidebar-header">
-        <h1 class="logo">AI 工具面板</h1>
+        <h1 class="logo">Api 工具面板</h1>
       </div>
       <nav class="sidebar-nav">
         <RouterLink

@@ -34,7 +34,7 @@
 
 /* 可以做一个小副标题 */
 .sidebar-header::after {
-    content: 'FastAPI · AI Tools';
+    content: 'FastApi · Api interface';
     display: block;
     margin-top: 4px;
     font-size: 11px;
