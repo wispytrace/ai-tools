@@ -5,6 +5,7 @@ yolo/app/train
 yolo/app/val
 yolo/app/yolo_service/uploaded_vis
 yolo/app/yolo_service/uploaded
+yolo/app/yolo_service/crops
 paddle/app/output
 labelU/data
 agents/app/extracted_results
@@ -14,3 +15,4 @@ pdftool/app/upload
 pdftool/app/output
 pdftool/app/merged
 *.pt
+models

@@ -1,0 +1,1 @@
+docker build -t 192.168.1.101:7443/top/fast-whisper:latest .
