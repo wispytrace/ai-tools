@@ -16,3 +16,5 @@ pdftool/app/output
 pdftool/app/merged
 *.pt
 models
+smiles
+speech/app/GLM-TTS

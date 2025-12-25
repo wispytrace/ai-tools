@@ -1,6 +1,6 @@
 from modelscope import snapshot_download
 
-MODEL_ID = "AI-ModelScope/XTTS-v2"  # 替换为你的模型
+MODEL_ID = "facebook/dinov3-vit7b16-pretrain-lvd1689m"  # 替换为你的模型
 MODEL_DIR = f"/root/binghao/models/{MODEL_ID.split('/')[-1]}"
 
 print(f"下载 {MODEL_ID} 到 {MODEL_DIR}")

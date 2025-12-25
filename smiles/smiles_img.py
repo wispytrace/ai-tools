@@ -5,6 +5,52 @@ import csv
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 
+
+def get_opt_config1(opt): # 84.71%
+    opt.addAtomIndices =False
+    opt.addstereoAnnotation = True
+    opt.useBWAtomPalette()
+    opt.explicitMethyl = False
+    opt.bondLinewidth=2
+    opt.fixedBondLength=25
+    opt.padding = 0.02
+    return opt
+
+def get_opt_config2(opt):
+    opt.useDefaultAtomPalette()  # 78.97%
+    opt.bondLinewidth = 1.5
+    opt.fontSize = 0.8
+    return opt
+
+def get_opt_config3(opt): # 80.78%
+    opt.fixedBondLength = 22
+    opt.scaleBondWidth = False
+    opt.maxFontSize = 14
+    opt.clearBackground = False
+    return opt
+
+def get_opt_config4(opt): # 75.25%
+    opt.addStereoAnnotation = True
+    opt.addAtomIndices = True
+    opt.includeAtomTags = True
+    opt.explicitHydrogens = True
+    return opt
+
+def get_opt_config5(opt):
+    opt.useDefaultAtomPalette()
+    opt.bondLineWidth = 1.5
+    opt.fixedBondLength = 23
+    opt.addStereoAnnotation = True
+    opt.explicitMethyl = False
+    opt.fontSize = 0.8
+    opt.minFontSize = 12
+    opt.maxFontSize = 18
+    opt.clearBackground = True
+
+    return opt
+
+
+
 def generate_image(smiles, output_path, width=1600, height=900, fmt="svg"):
     try:
         mol = Chem.MolFromSmiles(smiles)
@@ -28,13 +74,20 @@ def generate_image(smiles, output_path, width=1600, height=900, fmt="svg"):
             return False
 
         opt = drawer.drawOptions()
-        opt.bondLineWidth = 2
-        # opt.atomLabelFontSize = 18 # Unknown attribute in installed RDKit version
-        opt.padding = 0.02
+        opt = get_opt_config1(opt)
+        # opt.addAtomIndices =False
+        # opt.addstereoAnnotation = True
+        # opt.useBWAtomPalette()
+        # opt.explicitMethyl = False
+        # opt.bondLinewidth=2
+        # opt.fixedBondLength=25
+        # opt.padding = 0.02
         
         drawer.DrawMolecule(mol)
         drawer.FinishDrawing()
-        
+        # rdMolDraw2D.PrepareAndDrawMolecule(drawer,mol)
+        # content = drawer.FinishDrawing()
+
         content = drawer.GetDrawingText()
         
         mode = "w" if fmt == "svg" else "wb"
@@ -56,6 +109,7 @@ def process_batch(input_csv, output_dir, width, height, fmt):
     count = 0
     success = 0
     
+    smiles_path_list = []
     print(f"Processing batch from {input_csv}...")
     
     with open(input_csv, 'r', encoding='utf-8') as f:
@@ -74,7 +128,15 @@ def process_batch(input_csv, output_dir, width, height, fmt):
             count += 1
             if count % 100 == 0:
                 print(f"Processed {count} items... (Success: {success})", end='\r')
-                
+            
+            smiles_path_list.append({"smiles": smiles, "path": filename})
+            if count >= 1000:
+                print("Reached 10,000 items limit for this batch run.")
+                break
+    with open(os.path.join(output_dir, "result.json"), 'w', encoding='utf-8', newline='') as f:
+        import json
+        json.dump(smiles_path_list, f, ensure_ascii=False, indent=2)
+
     print(f"\nBatch processing complete. {success}/{count} images generated in '{output_dir}'.")
 
 if __name__ == "__main__":
@@ -82,9 +144,9 @@ if __name__ == "__main__":
     parser.add_argument("--smiles", help="Single SMILES string")
     parser.add_argument("-i", "--input", help="Input CSV file for batch processing")
     parser.add_argument("-o", "--output", help="Output filename (for single) or Directory (for batch)")
-    parser.add_argument("--format", choices=["svg", "png"], default="svg", help="Output format (svg or png)")
-    parser.add_argument("--width", type=int, default=1600, help="Image width")
-    parser.add_argument("--height", type=int, default=900, help="Image height")
+    parser.add_argument("--format", choices=["svg", "png"], default="png", help="Output format (svg or png)")
+    parser.add_argument("--width", type=int, default=800, help="Image width")
+    parser.add_argument("--height", type=int, default=450, help="Image height")
     
     args = parser.parse_args()
     
