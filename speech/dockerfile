@@ -1,0 +1,37 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# Builds ultralytics/ultralytics:latest image on DockerHub https://hub.docker.com/r/ultralytics/ultralytics
+# Image is CUDA-optimized for YOLO single/multi-GPU training and inference
+
+# Start FROM PyTorch image https://hub.docker.com/r/pytorch/pytorch or nvcr.io/nvidia/pytorch:25.02-py3
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime
+
+# Set environment variables
+# Avoid DDP error "MKL_THREADING_LAYER=INTEL is incompatible with libgomp.so.1 library"
+# Suppress TensorFlow cuDNN, cuBLAS, and cuFFT Registration Warnings
+# WORKDIR /app
+RUN pip install faster-whisper -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install modelscope -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install contractions -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install inflect -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install jieba -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install pypinyin -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install emoji -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install pronouncing -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install tn -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install python-dateutil -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install WeTextProcessing -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install soxr -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install librosa -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install hyperpyyaml -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install transformers -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install peft -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install tiktoken -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install x_transformers -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install gradio -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+# RUN pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# RUN apt-get update && apt-get install -y \
+#     ffmpeg \
+#     curl 

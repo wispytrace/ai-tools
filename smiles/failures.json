@@ -1,0 +1,1290 @@
+[
+  {
+    "image_path": "output_images/0.png",
+    "true_smiles": "C1C(=C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CS3)C(=O)[O-])C[N+]4=CC=CC=C4",
+    "pred_smiles": "C1=CC=[N+](C=C1)CC2=C(C(=O)[O-])N3C(=O)[C@H]([C@H]3SC2)NC(=O)CC4=CC=CS4",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/3.png",
+    "true_smiles": "[Ir](Cl)(Cl)(Cl)Cl",
+    "pred_smiles": "Cl[X](Cl)(Cl)Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/6.png",
+    "true_smiles": "CC1(CCC2(CC=C3C4(CCC5C(C(CCC5(C4CCC3(C2C1)C)C)O)(C)C)C)C)C",
+    "pred_smiles": "CC1(C)CC[C@]2(C)CC=C3[C@]4(C)CC[C@H]5C(C)(C)[C@H](CC[C@]5(C)[C@H]4CC[C@@]3(C)[C@@H]2C1)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/7.png",
+    "true_smiles": "CC1C(C(C(C(O1)OC2CCC3(C(C2(C)CO)CCC4(C3=CC=C5C4(CC(C6(C5CC(CC6)(C)C)CO)O)C)C)C)O)OC7C(C(C(C(O7)CO)O)O)O)O",
+    "pred_smiles": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@H]2CC[C@@]3(C)[C@@H](CC[C@]4(C)C3=CC=C5[C@@H]6CC(C)(C)CC[C@]6(CO)[C@@H](C[C@]54C)O)[C@]2(C)CO)O)O[C@H]7[C@@H]([C@H]([C@@H]([C@@H](CO)O7)O)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/16.png",
+    "true_smiles": "O=C(C(=N)N[C@H]1C[C@H](N)[C@@H](O[C@@H]2[C@@H](O)[C@@H](O)[C@@H](O)[C@H](O)[C@H]2O)O[C@@H]1C)O |&1:5,7,9,11,12,14,16,18,20,23,r|",
+    "pred_smiles": "C[C@@H]1[C@H](C[C@@H]([C@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)O)O)O)N)NC(=N)C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/19.png",
+    "true_smiles": "CCCC(=CCC)C(=O)O",
+    "pred_smiles": "CC/C=C(/CCC)\\C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/34.png",
+    "true_smiles": "CC(CCC(C(C)(C)O)O)C1CCC2(C1(CC(C3(C2CC=C4C3CCC(C4(C)C)O)C)O)C)C",
+    "pred_smiles": "C[C@H](CC[C@H](C(C)(C)O)O)[C@H]1CC[C@@]2(C)[C@@H]3CC=C4[C@@H](CC[C@@H](C4(C)C)O)[C@]3(C)[C@@H](C[C@]12C)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/37.png",
+    "true_smiles": "CC(C)C1C(=O)OC(=O)N1C(=O)OCC2C3=CC=CC=C3C4=CC=CC=C24",
+    "pred_smiles": "CC(C)[C@H]1C(=O)OC(=O)N1C(=O)OCC2C3=C(C=CC=C3)C4=C2C=CC=C4",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/39.png",
+    "true_smiles": "C(C(C(CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-]",
+    "pred_smiles": "C([C@@H]([C@@H](CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/42.png",
+    "true_smiles": "C(N1C=NC2C(NC(N)=NC1=2)=O)OCCO.[NaH]",
+    "pred_smiles": "C(COCN1C=NC2=C1N=C(N)NC2=O)O.[Na]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/45.png",
+    "true_smiles": "CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O",
+    "pred_smiles": "C[C@H]1[C@](C=O)([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@H](CO)O3)O)O)NC)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/49.png",
+    "true_smiles": "[B-](C1=CC(=CC=C1)O)(F)(F)F.[K+]",
+    "pred_smiles": "C=1=C=C(C=C(C1)O)[B-](F)(F)F.[K+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/50.png",
+    "true_smiles": "C(C1C=CC=CC=1O)(=O)NCCCCCCCC(=O)O.[NaH]",
+    "pred_smiles": "C(CCCC(=O)O)CCCNC(=O)C1=C(C=C=C=C1)O.[Na]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/57.png",
+    "true_smiles": "CC12CCC3C(=CC(=O)C4C3(CC(C(C4)O)O)C)C1(CCC2C(C)(C(CCC(C)(C)O)O)O)O",
+    "pred_smiles": "CC(C)(CC[C@H]([C@@](C)([C@H]1CC[C@]2(C3=CC(=O)[C@@H]4C[C@H]([C@H](C[C@]4(C)[C@H]3CC[C@]12C)O)O)O)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/59.png",
+    "true_smiles": "CCCCCCCCCCCCCCCC(=O)N1CC(CC1C(=O)O)O",
+    "pred_smiles": "CCCCCCCCCCCCCCCC(=O)N1C[C@@H](C[C@H]1C(=O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/60.png",
+    "true_smiles": "CC1CNCCN1C2=NC=CC(=N2)C3=NOC4=C3CCCC45CCCC6=C5C(=C(S6)N)C#N",
+    "pred_smiles": "C[C@@H]1CNCCN1C2=NC=CC(=N2)C3=CN(C4=C3CCCC54CCCC6=C5N=C(N)S6)N=C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/80.png",
+    "true_smiles": "CCC12CCC3C(C1CCC2(C#C)OC(=O)C)CCC4=CC(=NO)CCC34",
+    "pred_smiles": "CC[C@@]12CC[C@@H]3[C@H]4CC/C(=N/O)/C=C4CC[C@H]3[C@@H]2CC[C@]1(C#C)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/83.png",
+    "true_smiles": "C1=CC=C(C=C1)COC2=CC3=C(C=C2)NC=C3CC(C(=O)O)N",
+    "pred_smiles": "C1=CC=C(C=C1)COC2=CC3=C(C=C2)NC=C3C[C@@H](C(=O)O)N",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/84.png",
+    "true_smiles": "CC(CC(=O)C=C(C)C1CC(=O)C2(C1(C(C(=O)C3=C2C(CC4C3(CCC(C4(C)C)O)C)O)O)C)C)C(=O)O",
+    "pred_smiles": "C/C(=C\\C(=O)CC(C)C(=O)O)/[C@H]1CC(=O)[C@@]2(C)C3=C(C(=O)[C@H]([C@]12C)O)[C@@]4(C)CC[C@@H](C(C)(C)[C@@H]4C[C@@H]3O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/85.png",
+    "true_smiles": "CCCCN1C(=O)C(=CC=CC=C2N(C3=CC=CC=C3O2)CCCS(=O)(=O)[O-])C(=O)N(C1=S)CCCC.[Na+]",
+    "pred_smiles": "CCCCN1C(=O)C(=C/C=C/C=C\\2/N(CCCS(=O)(=O)[O-])C3=C(C=CC=C3)O2)C(=O)N(CCCC)C1=S.[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/87.png",
+    "true_smiles": "[C@H]1(CC2=CC=CC=C2)[C@@]2([H])[C@@]3([C@H](OC(C)=O)C=C[C@@](O)(C)C[C@@H](C)CC=C[C@@]3([H])[C@H](O)C(=C)[C@H]2C)C(=O)N1 |t:17,26|",
+    "pred_smiles": "C[C@H]1C/C=C\\[C@H]2[C@@H](C(=C)[C@@H](C)[C@H]3[C@H](CC4=CC=CC=C4)NC(=O)[C@@]23[C@@H](/C=C\\[C@@](C)(C1)O)OC(=O)C)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/92.png",
+    "true_smiles": "C=CCOC(=O)CC(C(=O)O)NC(=O)OCC1C2=CC=CC=C2C3=CC=CC=C13",
+    "pred_smiles": "C=CCOC(=O)C[C@@H](C(=O)O)NC(=O)OCC1C2=C(C=CC=C2)C3=C1C=CC=C3",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/96.png",
+    "true_smiles": "CC1CC(C(C(C=C(C(C(C=CC=C(C(=O)NC2=CC(=O)C=C(C1OC)C2=O)C)OC)OC(=O)N)C)C)OC)OC",
+    "pred_smiles": "C/C/1=C\\C=C/[C@@H]([C@H](/C(=C/[C@H](C)[C@H]([C@H](C[C@H](C)[C@H](C2=CC(=O)C=C(C2=O)NC1=O)OC)OC)OC)/C)OC(=O)N)OC",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/100.png",
+    "true_smiles": "CCCC(C)C",
+    "pred_smiles": "CCCC(C)C.C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/102.png",
+    "true_smiles": "CC1C([O-][Mg+2]2([O-]C(=O)C(C)O2)O1)=O",
+    "pred_smiles": "CC1C(=O)[O-].CC1C(=O)[O-].[Mg+2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/105.png",
+    "true_smiles": "COC(=O)C(CO)NC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3",
+    "pred_smiles": "COC(=O)[C@H](CO)NC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/108.png",
+    "true_smiles": "C1([S@@](CC2=NC=CC(OCC(F)(F)F)=C2C)=O)NC2=CC=CC=C2N=1",
+    "pred_smiles": "CC1=C(C=CN=C1C[S@](=O)C2=NC3=C(C=CC=C3)N2)OCC(F)(F)F",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/109.png",
+    "true_smiles": "O=[Mo+3]12(S=C(N(CC(CC)CCCC)CC(CC)CCCC)[SH-]1)[S-2][Mo+3]1(S=C(N(CC(CC)CCCC)CC(CC)CCCC)[SH-]1)(=O)[S-2]2",
+    "pred_smiles": "CCCCC(CC)CN(CC(CC)CCCC)C1=[NH+][Si]2([Si]1)[Si]3([SiH]=C([SiH]3[SiH]2C)N(CC(CC)CCCC)CC(CC)CCCC)[SiH](C)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/115.png",
+    "true_smiles": "CCCCCCCCC=CCCCCCCCC(=O)ON1C(=O)CC(C1=O)S(=O)(=O)[O-].[Na+]",
+    "pred_smiles": "CCCCCCCC/C=C\\CCCCCCCC(=O)ON1C(=O)CC(C1=O)S(=O)(=O)[O-].[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/130.png",
+    "true_smiles": "CC(=CCOC1=C(C=C(C=C1)C2C3COC(C3CO2)C4=CC5=C(C=C4)OCO5)OC)C",
+    "pred_smiles": "CC(=CCOC1=C(C=C(C=C1)[C@@H]2[C@H]3CO[C@H](C4=CC=C5C(=C4)OCO5)[C@H]3CO2)OC)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/136.png",
+    "true_smiles": "COC1=C(C2=C(C=C1)OC3=C(C2=O)C(=CC(=C3)OC)OC4C(C(C(C(O4)COC5C(C(C(CO5)O)O)O)O)O)O)O",
+    "pred_smiles": "COC1=CC2=C(C(=C1)O[C@H]3[C@@H]([C@H]([C@@H]([C@@H](CO[C@H]4[C@@H]([C@H]([C@@H](CO4)O)O)O)O3)O)O)O)C(=O)C5=C(C=CC(=C5O)OC)O2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/145.png",
+    "true_smiles": "C1=CC=C2C(=C1)C(C3=CC=CC=C32)COC(=O)NC(CC4=CC(=C(C=C4)Cl)Cl)C(=O)O",
+    "pred_smiles": "C1=CC=C2C(=C1)C3=CC=CC=C3C2COC(=O)N[C@@H](CC4=CC=C(C(=C4)Cl)Cl)C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/157.png",
+    "true_smiles": "CCNC1=CC2=C(C=C1C)C(=C3C=C(C(=[NH+]CC)C=C3O2)C)C4=C(C=C(C=C4)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+]",
+    "pred_smiles": "CCNC1=CC2=C(C=C1C)C(=C3C=C(C)C(=[NH+]CC)C=C3O2)C4=C(C=C(C=C4)S(=O)(=O)[O-])S(=O)(=O)[O-].CCNC1=CC2=C(C=C1C)C(=C3C=C(C)C(=[NH+]CC)C=C3O2)C4=C(C=C(C=C4)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/161.png",
+    "true_smiles": "CC=C(C)C(=O)OC1CC(C2CC(=O)C(=C2CC1C(C)(C)OC(=O)C)C)C",
+    "pred_smiles": "C/C=C(\\C)/C(=O)O[C@@H]1C[C@H](C)[C@@H]2CC(=O)C(=C2C[C@H]1C(C)(C)OC(=O)C)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/162.png",
+    "true_smiles": "C1=CC=C(C=C1)CC(C(=O)NC(CC2=CC=CC=C2)C(=O)O)NC(=O)OCC3=CC=CC=C3",
+    "pred_smiles": "C1=CC=C(C=C1)C[C@@H](C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)NC(=O)OCC3=CC=CC=C3",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/165.png",
+    "true_smiles": "C12BC(CCC1)CCC2",
+    "pred_smiles": "C1CC2CCCC(C1)[B]2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/184.png",
+    "true_smiles": "CC(=O)NC1C(C=C(OC1C(C(COC(=O)C)OC(=O)C)OC(=O)C)C(=O)OC)OC(=O)C",
+    "pred_smiles": "CC(=O)N[C@@H]1[C@H](C=C(C(=O)OC)O[C@H]1[C@@H]([C@@H](COC(=O)C)OC(=O)C)OC(=O)C)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/194.png",
+    "true_smiles": "[Na+].[Na+].C([O-])(=O)C1=CC=CC=C1C([O-])=O",
+    "pred_smiles": "C1=C=C=C(C(=C=C1)C(=O)[O-])C(=O)[O-].[Na+].[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/196.png",
+    "true_smiles": "CC(C)(C)OC1=CC=C(C=C1)CC(C(=O)O)NC(=O)OCC2=CC=CC=C2.C1CCC(CC1)NC2CCCCC2",
+    "pred_smiles": "CC(C)(C)OC1=CC=C(C=C1)C[C@@H](C(=O)O)NC(=O)OCC2=CC=CC=C2.C1CCC(CC1)NC2CCCCC2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/198.png",
+    "true_smiles": "CC(=O)C1(CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C)O",
+    "pred_smiles": "CC(=O)[C@]1(CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@@]21C)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/206.png",
+    "true_smiles": "CC(=O)OCC1C(C(C(C(O1)OC2C(OC(C(C2OC(=O)C)OC(=O)C)SC3=CC=C(C=C3)[N+](=O)[O-])COC(=O)C)OC(=O)C)OC(=O)C)OC(=O)C",
+    "pred_smiles": "CC(=O)OC[C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@@H](COC(=O)C)O[C@H]([C@@H]([C@H]2OC(=O)C)OC(=O)C)SC3=CC=C(C=C3)[N+](=O)[O-])OC(=O)C)OC(=O)C)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/210.png",
+    "true_smiles": "CC1=NN(C2C=CC=CC=2)C2=O[Cr+3]345([O-]C6C=C(N(=O)=O)C=CC=6N=N3[C-]12)[O-]C1C=C(N(=O)=O)C=CC=1N=N4[C-]1C(=NN(C2C=CC=CC=2)C1=O5)C.[H+]",
+    "pred_smiles": "CC1=NN(C2=CC=CC=C2)C3=C1[N+]4=NN5C6=CC(=CC=C6N=[13C]57OC8=C(C=C(C=C8[N+](=NN9C%10=C(C=CC=C%10)O[13C]94O3)C)[N+](=O)[O-])N(C%11=CC=CC=C%11)N=[13C]7C)[N+](=O)[O-].[H-]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/214.png",
+    "true_smiles": "CN(C)CCC=C1C2=CC=CC=C2COC3=CC=CC=C31.Cl",
+    "pred_smiles": "CN(C)CC/C=C\\1/C2=C(C=CC=C2)COC3=CC=CC=C13.Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/236.png",
+    "true_smiles": "C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(O2)C(C9O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O",
+    "pred_smiles": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@@H](CO)O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@@H](CO)O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@@H](CO)O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@@H](CO)O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@@H](CO)O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@@H](CO)O[C@@H]([C@@H]([C@H]8O)O)O2)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/246.png",
+    "true_smiles": "[Ir](=O)=O",
+    "pred_smiles": "C.O=[V]=O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/250.png",
+    "true_smiles": "N12[Zn]N3C4C=CC3=C(C3C=CC(N=3)=C(C3=CC=CC=C3)C1=CC=C2C(C1=CC=CC=C1)=C1C=CC(C=4C2=CC=CC=C2)=N1)C1=CC=CC=C1 |c:7,14,41,t:36|",
+    "pred_smiles": "C1=CC=C(C=C1)C2=C3C=CC(=N3)C(=C4C=CC5=C(C6=CC=CC=C6)C7=NC(=C(C8=CC=CC=C8)C9=CC=C2N9[In]N45)C=C7)C%10=C=C=C=C=C%10",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/259.png",
+    "true_smiles": "CCCCCOC(=O)NC1=NC(=O)N(C=C1F)C2C(C(C(O2)C)OC3C(C(C(O3)C)O)O)O",
+    "pred_smiles": "CCCCCOC(=O)NC1=NC(=O)N(C=C1F)[C@H]2[C@@H]([C@@H]([C@@H](C)O2)O[C@H]3[C@@H]([C@@H]([C@@H](C)O3)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/267.png",
+    "true_smiles": "CCN(CCCl)C1=CC(=C(C=C1)C=CC2=[N+](C3=CC=CC=C3C2(C)C)C)C.[Cl-]",
+    "pred_smiles": "CCN(CCCl)C1=CC(=C(C=C1)/C=C/C2=[N+](C)C3=CC=CC=C3C2(C)C)C.[Cl-]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/278.png",
+    "true_smiles": "COC1=C(C(=C(C=C1)C=CC2=CC(=C(C(=C2)OC)OC)OC)O)O",
+    "pred_smiles": "COC1=C(C(=C(/C=C/C2=CC(=C(C(=C2)OC)OC)OC)C=C1)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/282.png",
+    "true_smiles": "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCC",
+    "pred_smiles": "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCC",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/287.png",
+    "true_smiles": "CC(=O)OCC1C(C(C(C(O1)OC(=O)C)N2C(=O)C3=CC=CC=C3C2=O)OC(=O)C)OC(=O)C",
+    "pred_smiles": "CC(=O)OC[C@@H]1[C@H]([C@@H]([C@H]([C@H](OC(=O)C)O1)N2C(=O)C3=C(C=CC=C3)C2=O)OC(=O)C)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/293.png",
+    "true_smiles": "CN(CC=CC1=CC=C(C=C1)Cl)CC2=CC=CC=C2N(CCO)S(=O)(=O)C3=CC=C(C=C3)OC.OP(=O)(O)O",
+    "pred_smiles": "CN(C/C=C/C1=CC=C(C=C1)Cl)CC2=C(C=CC=C2)N(CCO)S(=O)(=O)C3=CC=C(C=C3)OC.OP(=O)(O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/297.png",
+    "true_smiles": "CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)OC(=O)C)C)CO",
+    "pred_smiles": "CC1=C[C@@H]2[C@](CO)([C@@H](C1=O)O)[C@@]3(C)C[C@H]([C@H]([C@]43CO4)O2)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/298.png",
+    "true_smiles": "CC1CC(C2C(C(C=CC2=C1)C)CCC3CC(CC(=O)O3)O[Si](C)(C)C(C)(C)C)O",
+    "pred_smiles": "C[C@H]1C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@H](CC(=O)O3)O[Si](C)(C)C(C)(C)C)[C@H]2[C@H](C1)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/300.png",
+    "true_smiles": "C(CO)CO",
+    "pred_smiles": "C(CO)CO.C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/304.png",
+    "true_smiles": "COC1=C(C=C(C=C1)C=CC#N)OC",
+    "pred_smiles": "COC1=C(C=C(/C=C/C#N)C=C1)OC",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/310.png",
+    "true_smiles": "CCCC1OC2C=C3C4CCC5=CC(=O)C=CC5(C4C(CC3(C2(O1)C(=O)CO)C)O)C",
+    "pred_smiles": "CCCC1O[C@@H]2C=C3[C@@H]4CCC5=CC(=O)C=C[C@]5(C)[C@H]4[C@H](C[C@]3(C)[C@]2(C(=O)CO)O1)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/315.png",
+    "true_smiles": "COC1=C(C=C(C=C1)C=O)S(=O)(=O)[O-].[Na+]",
+    "pred_smiles": "COC1=C=C=C(C=C1S(=O)(=O)[O-])C=O.[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/318.png",
+    "true_smiles": "[O-2].[O-2].[O-2].[Gd+3].[Gd+3]",
+    "pred_smiles": "[Cd+2].[Cd+2].[O-2].[O-2].[O-2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/319.png",
+    "true_smiles": "C(C1=CNC2NC(N)=NC(=O)C1=2)CC1C=CC(C(=O)N[C@H](C(=O)O)CCC(=O)O)=CC=1.[NaH].O |&1:20,r|",
+    "pred_smiles": "C1=C(C=CC(=C1)C(=O)N[C@@H](CCC(=O)O)C(=O)O)CCC2=C3NC4=C2C(=O)N=C(N)N4.[Na].O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/324.png",
+    "true_smiles": "CC=C(C)C(=O)OC1CC(CC2C1(CCC3(C2=CCC4C3(CCC5C46CCC(C5(C)C)(OC6)O)C)C)C(=O)O)(C)C",
+    "pred_smiles": "C/C=C(\\C)/C(=O)O[C@H]1CC(C)(C)C[C@H]2C3=CC[C@@H]4[C@@](C)(CC[C@H]5C(C)(C)[C@]6(CC[C@@]54CO6)O)[C@]3(C)CC[C@]21C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/328.png",
+    "true_smiles": "CC1CCCC(CCCCCC2=C(C(=CC(=C2)O)O)C(=O)O1)O",
+    "pred_smiles": "C[C@H]1CCC[C@H](CCCCCC2=C(C(=CC(=C2)O)O)C(=O)O1)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/332.png",
+    "true_smiles": "CCC(=NNC1=CC=CC=C1)C",
+    "pred_smiles": "CC/C(=N\\NC1=CC=CC=C1)/C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/334.png",
+    "true_smiles": "COCC1CC2=CC(=C3C(=C2C(C1COC)C4=CC(=C(C=C4)OC)OC)OCO3)OC",
+    "pred_smiles": "COC[C@@H]1CC2=CC(=C3C(=C2[C@@H](C4=CC(=C(C=C4)OC)OC)[C@H]1COC)OCO3)OC",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/336.png",
+    "true_smiles": "CCCCC=CI",
+    "pred_smiles": "CCCC/C=C/I",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/342.png",
+    "true_smiles": "COC1=C(C(=C2C(=C1)OC(=C(C2=O)OC3C(C(C(C(O3)CO)O)O)O)C4=CC=C(C=C4)O)O)OC",
+    "pred_smiles": "COC1=C(C(=C2C(=C1)OC(=C(C2=O)O[C@H]3[C@@H]([C@H]([C@@H]([C@@H](CO)O3)O)O)O)C4=CC=C(C=C4)O)O)OC",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/364.png",
+    "true_smiles": "[H+].CC(=O)NC1=CC=CC2=C1C(=C(C=C2)[O-])N=NC3=C(C=CC(=C3)S(=O)(=O)NC)[O-].CC(=O)NC1=CC=CC2=C1C(=C(C=C2)[O-])N=NC3=C(C=CC(=C3)S(=O)(=O)NC)[O-].[Cr+3]",
+    "pred_smiles": "CC(=O)NC1=C2C=CC=CC2=CC=C1.CC(=O)NC1=C2C=CC=CC2=CC=C1[O-].CNS(=O)(=O)C1=CC=C(C(=C1)N=NC2=CC(=CC=C2[O-])S(=O)(=O)NC)[O-].CC(=O)NC1=C2C=CC=CC2=CC=C1[O-].[Cr+3].[H+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/376.png",
+    "true_smiles": "C12C(=CC=CC=1NC1C=CC=CC=1)C=CC=C2S([O-])(=O)=O.C12C(=CC=CC=1NC1=CC=CC=C1)C=CC=C2S([O-])(=O)=O.[Mg+2]",
+    "pred_smiles": "C1=CC=C(C=C1)NC2=C3C(=CC=C2)C4=CC=CC(=C43)S(=O)(=O)[O-].C1=CC=C(C=C1)NC2=C3C(=CC=C2)C4=CC=CC(=C43)S(=O)(=O)[O-].C1=CC=C(C=C1)NC2=C3C(=CC=C2)C4=CC=CC(=C43)S(=O)(=O)[O-].[Mg+2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/378.png",
+    "true_smiles": "CC(C)(C)N",
+    "pred_smiles": "CC(C)(C)N.C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/389.png",
+    "true_smiles": "S(C1=CC=CC2=C(C=CC=C12)S(O)(=O)=O)(O)(=O)=O.[NaH]",
+    "pred_smiles": "C1=C2C=CC(=C1)C3=C(C=C(C=C3S(=O)(=O)O)C4=CC=C(C=C24)S(=O)(=O)O)S(=O)(=O)O.[Na]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/395.png",
+    "true_smiles": "C(CC(=O)[O-])C(C(=O)[O-])N.[Ca+2]",
+    "pred_smiles": "C(CC(=O)[O-])[C@@H](C(=O)[O-])N.[Ca+2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/396.png",
+    "true_smiles": "C1=CC=C(C=C1)COC(=O)CC(C(=O)OCC2=CC=CC=C2)N.Cl",
+    "pred_smiles": "C1=CC=C(C=C1)COC(=O)C[C@@H](C(=O)OCC2=CC=CC=C2)N.Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/402.png",
+    "true_smiles": "CC(C)(C)C1=CC2=C(C=C1)C(=C(C=C2)C(C)(C)C)S(=O)(=O)[O-].[Na+]",
+    "pred_smiles": "CC(C)(C)C1=CC2=CC=C(C(=C2C=C1)S(=O)(=O)[O-])C(C)(C)C.CC(C)(C)C1=CC2=CC=C(C(=C2C=C1)S(=O)(=O)[O-])C(C)(C)C.[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/423.png",
+    "true_smiles": "CC(=CCCC(=CCC1=C(C=CC(=C1)C(=O)O)OC)C)C",
+    "pred_smiles": "CC(=CCC/C(=C\\CC1=C(C=CC(=C1)C(=O)O)OC)/C)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/439.png",
+    "true_smiles": "CC(C)C1=CC2=C(CC1)C3(CCCC(C3CC2)(C)C(=O)O)C",
+    "pred_smiles": "CC(C)C1=CC2=C(CC1)[C@@]3(C)CCC[C@](C)([C@@H]3CC2)C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/440.png",
+    "true_smiles": "CC1C(CC2C1C(OC=C2C(=O)O)OC3C(C(C(C(O3)CO)O)O)O)O",
+    "pred_smiles": "C[C@H]1[C@@H](C[C@@H]2C(=CO[C@H]([C@H]12)O[C@H]3[C@@H]([C@H]([C@@H]([C@@H](CO)O3)O)O)O)C(=O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/449.png",
+    "true_smiles": "CC(=CCCC(=CCO)C)C",
+    "pred_smiles": "CC(=CCC/C(=C/CO)/C)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/455.png",
+    "true_smiles": "CC(C)C(C(=O)O)NS(=O)(=O)C1=CC=C(C=C1)C2=CC=C(C=C2)Br",
+    "pred_smiles": "CC(C)[C@@H](C(=O)O)NS(=O)(=O)C1=CC=C(C=C1)C2=CC=C(C=C2)Br",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/458.png",
+    "true_smiles": "CC1CCC2=C(C=CC=N2)C(=O)OCC3(C4C(C(C5(C(C(C(C(C5(C4OC(=O)C)O3)(C)O)OC1=O)OC(=O)C6=COC=C6)OC(=O)C)COC(=O)C)OC(=O)C)OC(=O)C)C",
+    "pred_smiles": "C[C@@H]1CCC2=C(C=CC=N2)C(=O)OC[C@@]3(C)[C@@H]4[C@@H]([C@@H]([C@]5(COC(=O)C)[C@@H]([C@H]([C@@H]([C@@](C)([C@]5([C@H]4OC(=O)C)O3)O)OC1=O)OC(=O)C6=COC=C6)OC(=O)C)OC(=O)C)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/464.png",
+    "true_smiles": "C1C(C(OC1N2C=NC3=C2NC=NC3=S)CO)O",
+    "pred_smiles": "C1[C@@H]([C@@H](CO)O[C@H]1N2C=NC3=C2NC=NC3=S)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/471.png",
+    "true_smiles": "CC1=CN=C(C(=N1)Cl)C",
+    "pred_smiles": "CC1=NC(=C(C)N=C1C)Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/476.png",
+    "true_smiles": "C1=CC=C(C(=C1)CC(C(=O)O)N)F",
+    "pred_smiles": "C1=CC=C(C(=C1)C[C@@H](C(=O)O)N)F",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/478.png",
+    "true_smiles": "C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)CO)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)CO)OC5C(C(C(C(O5)CO)OC6C(C(C(C(O6)CO)O)O)O)O)O)O)O)O)O)O)O",
+    "pred_smiles": "C1=C(C=CC(=C1)O[C@H]2[C@@H]([C@H]([C@@H]([C@@H](CO)O2)O[C@H]3[C@@H]([C@H]([C@@H]([C@@H](CO)O3)O[C@H]4[C@@H]([C@H]([C@@H]([C@@H](CO)O4)O[C@H]5[C@@H]([C@H]([C@@H]([C@@H](CO)O5)O[C@H]6[C@@H]([C@H]([C@@H]([C@@H](CO)O6)O)O)O)O)O)O)O)O)O)O)O)[N+](=O)[O-]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/486.png",
+    "true_smiles": "C=CO",
+    "pred_smiles": "C=C[O]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/497.png",
+    "true_smiles": "CC(=O)OC1C(CC(C(C1OC(=O)C)OC(=O)C)N=[N+]=[N-])N=[N+]=[N-]",
+    "pred_smiles": "CC(=O)O[C@@H]1[C@H](C[C@H]([C@@H]([C@H]1OC(=O)C)OC(=O)C)N=[N+]=[N-])N=[N+]=[N-]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/501.png",
+    "true_smiles": "COC1=CC=CC(=C1)C(CC(=O)O)N",
+    "pred_smiles": "COC1=CC=CC(=C1)[C@@H](CC(=O)O)N",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/506.png",
+    "true_smiles": "CCC=CCC1=C(CCC1=O)C",
+    "pred_smiles": "CC/C=C/CC1=C(C)CCC1=O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/508.png",
+    "true_smiles": "CC(=O)OC1C(C2(CCC3C(C24C1O4)CCC5(C3(CCC(C5)O)C=O)O)C)C6=COC(=O)C=C6",
+    "pred_smiles": "CC(=O)O[C@@H]1[C@H](C2=COC(=O)C=C2)[C@@]3(C)CC[C@H]4[C@@H](CC[C@@]5(C[C@H](CC[C@]45C=O)O)O)[C@]63[C@@H]1O6",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/510.png",
+    "true_smiles": "C1=CC=C(C=C1)COC(=O)NC(CC(=O)O)C(=O)O",
+    "pred_smiles": "C1=CC=C(C=C1)COC(=O)N[C@@H](CC(=O)O)C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/512.png",
+    "true_smiles": "C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O.O",
+    "pred_smiles": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@@H](CO)O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@@H](CO)O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@@H](CO)O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@@H](CO)O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@@H](CO)O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@@H](CO)O[C@@H]([C@@H]([C@H]8O)O)O2)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/516.png",
+    "true_smiles": "CCCCCCCCCCCCCCOC1C(C(C(C(O1)CO)OC2C(C(C(C(O2)CO)O)O)O)O)O",
+    "pred_smiles": "CCCCCCCCCCCCCCO[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]2[C@@H]([C@H]([C@H]([C@@H](CO)O2)O)O)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/518.png",
+    "true_smiles": "C(C1C(C(C(C(O1)OC(C(CO)O)C(C(CO)O)O)O)O)O)O.O",
+    "pred_smiles": "C([C@H]([C@H]([C@@H]([C@@H](CO)O)O[C@H]1[C@@H]([C@H]([C@H]([C@@H](CO)O1)O)O)O)O)O)O.O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/530.png",
+    "true_smiles": "C1=CC=C(C=C1)COC2=CC=CC=[C-]2.[Mg+2].[Br-]",
+    "pred_smiles": "C=1=C=C=C(C=C1)COC2=C=C=C=C=[C-]2.[Br-].[Mg+2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/533.png",
+    "true_smiles": "C12C=CC=CC=1N(C)N=C2C(=O)N[C@@H]1C[C@@]2([H])N(C)[C@]([H])(CCC2)C1.Cl |&1:13,15,19,r|",
+    "pred_smiles": "CN1[C@H]2CCC[C@@H]1CC(C2)NC(=O)C3=NN(C)C4=C3C=CC=C4.Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/542.png",
+    "true_smiles": "[Ge](I)(I)(I)I",
+    "pred_smiles": "[Ce](I)(I)(I)I",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/543.png",
+    "true_smiles": "CCCCCCCC(=O)CCC1C(CC(C1CC=CCCCC(=O)OC(C)C)O)O",
+    "pred_smiles": "CCCCCCCC(=O)CC[C@@H]1[C@@H](C/C=C\\CCCC(=O)OC(C)C)[C@H](C[C@H]1O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/545.png",
+    "true_smiles": "CC1=CC=C(C=C1)S(=O)(=O)O.CC(C(=O)OCC1=CC=CC=C1)N",
+    "pred_smiles": "C[C@@H](C(=O)OCC1=CC=CC=C1)N.CC1=CC=C(C=C1)S(=O)(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/551.png",
+    "true_smiles": "C1=CC(=CC=C1C=CCC(C(C2=CC=C(C=C2)O)NC3=CC=C(C=C3)F)C(=O)O)F",
+    "pred_smiles": "C(=C\\C1=CC=C(C=C1)F)/CC(C(C2=CC=C(C=C2)O)NC3=CC=C(C=C3)F)C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/556.png",
+    "true_smiles": "CC(C)(C)OC(=O)C(CCCOS(=O)(=O)C)NC(=O)OCC1=CC=CC=C1",
+    "pred_smiles": "CC(C)(C)OC(=O)[C@H](CCCOS(=O)(=O)C)NC(=O)OCC1=CC=CC=C1",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/559.png",
+    "true_smiles": "O.O=[Zr+2].[Cl-].[Cl-]",
+    "pred_smiles": "[Cl-].[Cl-].O.O.[Zr+2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/561.png",
+    "true_smiles": "CC1C(C(CC(O1)OC2CCC3(C(C2)CCC45C3CCC6(C4(O5)CC=C6C7=CC(=O)OC7)C)C)OC)OC8C(C(C(C(O8)COC9C(C(C(C(O9)CO)O)O)O)O)O)O",
+    "pred_smiles": "C[C@@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2CC[C@@]3(C)[C@H](CC[C@@]45[C@@H]3CC[C@]6(C)C(=CC[C@@]64O5)C7=CC(=O)OC7)C2)OC)O[C@H]8[C@@H]([C@H]([C@@H]([C@@H](CO[C@H]9[C@@H]([C@H]([C@@H]([C@@H](CO)O9)O)O)O)O8)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/566.png",
+    "true_smiles": "[B]1[B][B][B][B]C2[B]C2[B][B][B][B]1.[B]1[B][B][B][B]C2[B]C2[B][B][B][B]1.[Na+].[Co]",
+    "pred_smiles": "C12C([B]1)[B][B][B][B][B][B][B][B][B][B][B][B]2.C12C([B]1)[B][B][B][B][B][B][B][B][B][B]2.[Co].[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/567.png",
+    "true_smiles": "C1=C(C(=CC(=C1N)Cl)F)C(=O)O.Cl",
+    "pred_smiles": "C1=C(C(=CC(=C1Cl)N)F)C(=O)O.Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/571.png",
+    "true_smiles": "[C@@]12(C)C[C@@H](O)[C@]([H])([C@H](C(=O)O)CCC(=C)C(C)C)[C@@]1(C)CCC1[C@@]3(C)CC[C@H](OC(=O)C)C(C)(C)[C@]3([H])CCC2=1 |&1:0,3,5,7,18,23,27,35,r|",
+    "pred_smiles": "CC(C)C(=C)CCC([C@H]1[C@@H](C[C@@]2(C)C3=C(CC[C@]12C)[C@@]4(C)CC[C@@H](C(C)(C)[C@@H]4CC3)OC(=O)C)O)C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/574.png",
+    "true_smiles": "CC1=CC=C(C=C1)S(=O)(=O)N2C=C(N=C2)CC(C(=O)O)NC(=O)OC(C)(C)C",
+    "pred_smiles": "CC1=CC=C(C=C1)S(=O)(=O)N2C=C(C[C@@H](C(=O)O)NC(=O)OC(C)(C)C)N=C2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/586.png",
+    "true_smiles": "COC1=CC=C(C=C1)OC2C(C(C(C(O2)CO)O)OCC3=CC=CC=C3)N4C(=O)C5=CC=CC=C5C4=O",
+    "pred_smiles": "COC1=CC=C(C=C1)O[C@H]2[C@@H]([C@H]([C@@H]([C@@H](CO)O2)O)OCC3=CC=CC=C3)N4C(=O)C5=C(C=CC=C5)C4=O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/588.png",
+    "true_smiles": "C1=CC=C(C=C1)C(CCO)N",
+    "pred_smiles": "C1=CC=C(C=C1)[C@@H](CCO)N",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/590.png",
+    "true_smiles": "C1C(NC(S1)C(=O)O)C(=O)O.C(CC(C(=O)O)N)CN=C(N)N",
+    "pred_smiles": "C(C[C@@H](C(=O)O)N)CN=C(N)N.C1[C@@H](C(=O)O)N[C@@H](C(=O)O)S1",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/592.png",
+    "true_smiles": "CC(=CCOC1=C2C=CC(=O)OC2=CC3=C1C=CO3)CCC(C(C)(C)O)O",
+    "pred_smiles": "C/C(=C/COC1=C2C=CC(=O)OC2=CC3=C1C=CO3)/CCC(C(C)(C)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/604.png",
+    "true_smiles": "CC1=CC=C(C=C1)S(=O)(=O)O.C1=CC=C(C=C1)COC(=O)CCC(C(=O)OCC2=CC=CC=C2)N",
+    "pred_smiles": "C1=CC=C(C=C1)COC(=O)CC[C@@H](C(=O)OCC2=CC=CC=C2)N.CC1=CC=C(C=C1)S(=O)(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/616.png",
+    "true_smiles": "CC(C)(C)OC1=CC=C(C=C1)CC(C(=O)NC(C)(C)C(=O)O)NC(=O)OC(C)(C)C",
+    "pred_smiles": "CC(C)(C)OC1=CC=C(C=C1)C[C@@H](C(=O)NC(C)(C)C(=O)O)NC(=O)OC(C)(C)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/624.png",
+    "true_smiles": "C1(C[Mg]Cl)=CC=CC=C1",
+    "pred_smiles": "C=1=C=C=C(C=C1)C[Mg]Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/643.png",
+    "true_smiles": "[Cr+3](N)(N)([N-]=C=S)([N-]=C=S)([N-]=C=S)[N-]=C=S.[NH4+]",
+    "pred_smiles": "C(=[N-])=[N+]=Cl(N)(N)(N=C=S)(N=C=S)[N-]C=S.[NH4+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/645.png",
+    "true_smiles": "CCCCC=CCCCCCCCC(=O)OC",
+    "pred_smiles": "CCCC/C=C/CCCCCCCC(=O)OC",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/648.png",
+    "true_smiles": "C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=O)NC2=O",
+    "pred_smiles": "C([C@@H]1[C@H]([C@H]([C@H](N2C=NC3=C2NC(=O)NC3=O)O1)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/649.png",
+    "true_smiles": "CCC=CCCOCCC#N",
+    "pred_smiles": "CC/C=C/CCOCCC#N",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/650.png",
+    "true_smiles": "CC(=O)NC1C(C(C(OC1NC(=O)CC(C(=O)O)NC(=O)OC(C)(C)C)CO)O)O",
+    "pred_smiles": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@@H](CO)O[C@H]1NC(=O)C[C@@H](C(=O)O)NC(=O)OC(C)(C)C)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/651.png",
+    "true_smiles": "CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)NC(=O)N4CCN(C4=O)S(=O)(=O)C)C(=O)O)C",
+    "pred_smiles": "CC1(C)[C@H](C(=O)O)N2C(=O)[C@H]([C@H]2S1)NC(=O)[C@@H](C3=CC=CC=C3)NC(=O)N4CCN(C4=O)S(=O)(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/653.png",
+    "true_smiles": "CC1=CC=C(C=C1)S(=O)(=O)O.CSCCC(C(=O)OCC=C)N",
+    "pred_smiles": "C=CCOC(=O)[C@H](CCSC)N.CC1=CC=C(C=C1)S(=O)(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/656.png",
+    "true_smiles": "COC1=C(C=C(C=C1)CCOC2C(C(C(C(O2)CO)OC(=O)C=CC3=CC(=C(C=C3)O)OC)OC4C(C(C(C(O4)CO)O)O)O)O)O",
+    "pred_smiles": "COC1=C(C=C(C=C1)CCO[C@H]2[C@@H]([C@H]([C@@H]([C@@H](CO)O2)OC(=O)/C=C/C3=CC=C(C(=C3)OC)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@@H](CO)O4)O)O)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/663.png",
+    "true_smiles": "C1C(OC2=C(C1=O)C=CC(=C2)O)C3=CC=C(C=C3)OC4C(C(C(C(O4)CO)O)O)OC5C(C(CO5)(CO)O)O",
+    "pred_smiles": "C1=C(C=CC(=C1)O[C@H]2[C@@H]([C@H]([C@@H]([C@@H](CO)O2)O)O)O[C@H]3[C@@H]([C@@](CO)(CO3)O)O)[C@@H]4CC(=O)C5=C(C=C(C=C5)O)O4",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/670.png",
+    "true_smiles": "CC(=CCCC(=CCCC(=CCCC(C)(C=C)O)C)C)C",
+    "pred_smiles": "C=CC(C)(CC/C=C(\\C)/CC/C=C(\\C)/CCC=C(C)C)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/673.png",
+    "true_smiles": "C1=CC=C2C(=C1)C(C3=CC=CC=C32)COC(=O)NC(CC4=CC=C(C=C4)OS(=O)(=O)O)C(=O)O",
+    "pred_smiles": "C1=CC=C2C(=C1)C3=CC=CC=C3C2COC(=O)N[C@@H](CC4=CC=C(C=C4)OS(=O)(=O)O)C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/674.png",
+    "true_smiles": "CC(=O)OCC1C(C(C(C(O1)N=[N+]=[N-])N2C(=O)C3=CC=CC=C3C2=O)OC(=O)C)OC(=O)C",
+    "pred_smiles": "CC(=O)OC[C@@H]1[C@H]([C@@H]([C@H]([C@H](N=[N+]=[N-])O1)N2C(=O)C3=C(C=CC=C3)C2=O)OC(=O)C)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/676.png",
+    "true_smiles": "[Ir](O/C(/C)=C\\C(=O)C)(O/C(/C)=C\\C(=O)C)O/C(/C)=C\\C(=O)C",
+    "pred_smiles": "C/C(=C/C(=O)C)/O[In](O/C(=C\\C(=O)C)/C)O/C(=C\\C(=O)C)/C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/683.png",
+    "true_smiles": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",
+    "pred_smiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@]2(CO)[C@H]([C@@H]([C@@H](CO)O2)O)O)O)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/686.png",
+    "true_smiles": "CCCCCCCCOC(=O)C=CC(=O)OCCCCCCCC",
+    "pred_smiles": "CCCCCCCCOC(=O)/C=C/C(=O)OCCCCCCCC",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/688.png",
+    "true_smiles": "P12P3P1P23",
+    "pred_smiles": "P1P2P1P2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/697.png",
+    "true_smiles": "CC(=S)N",
+    "pred_smiles": "CC(=S)N.C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/699.png",
+    "true_smiles": "CC(=NC1=NN=C(C=C1)Cl)N(C)C",
+    "pred_smiles": "C/C(=N/C1=NN=C(C=C1)Cl)/N(C)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/701.png",
+    "true_smiles": "C1CC(N(C1)C(=O)OCC2C3=CC=CC=C3C4=CC=CC=C24)C(=O)OC5=C(C(=C(C(=C5F)F)F)F)F",
+    "pred_smiles": "C1=CC=C2C(=C1)C3=CC=CC=C3C2COC(=O)N4CCC[C@H]4C(=O)OC5=C(C(=C(C(=C5F)F)F)F)F",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/704.png",
+    "true_smiles": "C1=NC2=C(N=C(N=C2N1C3C(C(C(O3)COP(=O)(O)O)O)O)F)N",
+    "pred_smiles": "C([C@@H]1[C@H]([C@H]([C@H](N2C=NC3=C(N)N=C(F)N=C32)O1)O)O)OP(=O)(O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/706.png",
+    "true_smiles": "C1=CC=C2C(=C1)C(C3=CC=CC=C32)COC(=O)NC(CC4=CC=C(C=C4)C(F)(F)F)C(=O)O",
+    "pred_smiles": "C1=CC=C2C(=C1)C3=CC=CC=C3C2COC(=O)N[C@@H](CC4=CC=C(C=C4)C(F)(F)F)C(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/712.png",
+    "true_smiles": "O1C(CO)C(O)C(N)C(O)C1OC1C(N)CC(N)C(OC2C(N)CC(O)C(CN)O2)C1O.S(O)(O)(=O)=O",
+    "pred_smiles": "C1[C@@H]([C@H]([C@@H]([C@H]([C@@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@@H](CO)O2)O)N)O)O)O[C@@H]3[C@@H](C[C@@H]([C@@H](CN)O3)O)N)N.OS(=O)(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/715.png",
+    "true_smiles": "C1=CC(=C(C=C1[N+](=O)[O-])Cl)OC2C(C(C(C(O2)CO)O)O)O",
+    "pred_smiles": "C1=CC(=C(C=C1[N+](=O)[O-])Cl)O[C@H]2[C@@H]([C@H]([C@@H]([C@@H](CO)O2)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/725.png",
+    "true_smiles": "C1CC=CCCC=C1.C(=C(C(F)(F)F)O)C(=O)C(F)(F)F.[Ag]",
+    "pred_smiles": "C/1=C/CC/C=C\\CC1.C(=C(\\C(F)(F)F)/O)/C(=O)C(F)(F)F.[Ag]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/727.png",
+    "true_smiles": "CCCC[Sn](CCCC)(C1=CC=CC=C1)C2=CC=CC=C2",
+    "pred_smiles": "CCCC[Sn](CCCC)(C1=C=C=C=C=C1)C2=C=C=C=C=C2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/730.png",
+    "true_smiles": "COC1=C(C=CC(=C1)C=CC(=O)OC2C3C=COC(C3C4(C2O4)CO)OC5C(C(C(C(O5)CO)O)O)O)O",
+    "pred_smiles": "COC1=C(C=CC(=C1)C=CC(=O)O[C@H]2[C@@H]3C=CO[C@H]([C@@H]3[C@]4(CO)[C@H]2O4)O[C@H]5[C@@H]([C@H]([C@@H]([C@@H](CO)O5)O)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/735.png",
+    "true_smiles": "CC(C)(CO)C(C(=O)NCCC(=O)[O-])O.CC(C)(CO)C(C(=O)NCCC(=O)[O-])O.[Ca+2]",
+    "pred_smiles": "CC(C)(CO)[C@H](C(=O)NCCC(=O)[O-])O.CC(C)(CO)[C@H](C(=O)NCCC(=O)[O-])O.[Ca+2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/742.png",
+    "true_smiles": "CC(=CC(=O)C(F)(F)F)[O-].CC(=CC(=O)C(F)(F)F)[O-].[Mg+2]",
+    "pred_smiles": "C/C(=C/C(=O)C(F)(F)F)/[O-].C/C(=C/C(=O)C(F)(F)F)/[O-].[Mg+2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/746.png",
+    "true_smiles": "COC1=CC2=C(C=C1)C=[C-]C=C2.[Mg+2].[Br-]",
+    "pred_smiles": "COC1=CC2=C(C=C1)C=[C-]C=C2.C1=CC2=C(C=C1)C=[C-]C=C2.[Br-].[Mg+2]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/751.png",
+    "true_smiles": "C=COC",
+    "pred_smiles": "C=COC.C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/765.png",
+    "true_smiles": "CC(C)(C)OC(=O)N1CCN(CC1)C2=CC=CC=C2C=O",
+    "pred_smiles": "CC(C)(C)OC(=O)N1CCN(CC1)C2=CC=C(C=C2C=O)F",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/775.png",
+    "true_smiles": "CC(C(=O)NC1C2N(C1=O)C(C(S2)(C)C)C(=O)[O-])OC3=CC=CC=C3.[K+]",
+    "pred_smiles": "C[C@@H](C(=O)N[C@@H]1C(=O)N2[C@@H](C(=O)[O-])C(C)(C)S[C@H]12)OC3=C=C=C=C=C3.[K+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/785.png",
+    "true_smiles": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CCO)C)C",
+    "pred_smiles": "C/C(=C\\C=C\\C(=C\\CO)\\C)/C=C/C1=C(C)CCCC1(C)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/787.png",
+    "true_smiles": "CCC(C)C(C(=O)NC(CC(C)C)C(=O)N1CCCC1C(=O)N2CCCC2C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(C(C)C)C(=O)NCC(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(C(C)O)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)N)NC(=O)C4CCCN4C(=O)CNC(=O)C(CC5=CC=CC=C5)NC(=O)C(CC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(CC6=CNC=N6)NC(=O)C(C(C)C)NC(=O)C(CC(C)C)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(CC(=O)N)NC(=O)C(C)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCC(=O)N)NC(=O)C(C(C)O)NC(=O)C(C)NC(=O)C8CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N8)C(C)O)C)C(C)O)CC(=O)N)NC(=O)C(CCCCN)N",
+    "pred_smiles": "CC(C)CC(C(=O)NCC(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(C(C)O)C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CC2=CN=CN2)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC3=CNC4=C3C=CC=C4)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(C(C)O)NC(=O)C(CC(=O)N)NC(=O)C(CC6=CC=C(C=C6)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/792.png",
+    "true_smiles": "CC1CC2=CC(=O)CCC2(C3C1C4CCC(C4(CC3)C)(C)O)C",
+    "pred_smiles": "C[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]3CC[C@@]4(C)[C@@H](CC[C@]4(C)O)[C@H]13",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/803.png",
+    "true_smiles": "CC(C)C1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CC6C(CC7=CNC8=CC=CC6=C78)N(C5)C.CS(=O)(=O)O",
+    "pred_smiles": "CC(C)[C@@]1(C(=O)N2[C@@H](CC3=CC=CC=C3)C(=O)N4CCC[C@H]4[C@]2(O)O1)NC(=O)[C@@H]5C[C@@H]6C7=C8C(=CNC8=CC=C7)C[C@H]6N(C)C5.CS(=O)(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/811.png",
+    "true_smiles": "CC1C(C(C(O1)N2C=C(C(=NC2=O)N)F)O)O",
+    "pred_smiles": "C[C@@H]1[C@H]([C@H]([C@H](N2C=C(C(=NC2=O)N)F)O1)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/813.png",
+    "true_smiles": "CCOC1=CC(=C(C=C1[N+]#N)OCC)N2CCOCC2.CCOC1=CC(=C(C=C1[N+]#N)OCC)N2CCOCC2.Cl[Zn-2](Cl)(Cl)Cl",
+    "pred_smiles": "CCOC1=CC(=CC=C1N2CCOCC2)[N+]#N.CCOC1=CC=C(C=C1N2CCOCC2)[N+]#N.CCOC1=CC=C(C=C1)N2CCOCC2.Cl[Zn-2](Cl)(Cl)Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/822.png",
+    "true_smiles": "C1=CC=C(C=C1)[Sn](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4",
+    "pred_smiles": "C1=CC=C(C=C1)[Sn](C2=CC=CC=C2)(C3=CC=C=C=C3)C4=C=C=C=C=C4",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/828.png",
+    "true_smiles": "CC(C1=CC=C(C=C1)F)NC2=NC=C(N=C2)C3=CN=CC(=C3)CC(F)(F)F",
+    "pred_smiles": "C[C@@H](C1=CC=C(C=C1)F)NC2=NC=C(C3=CN=CC(=C3)CC(F)(F)F)N=C2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/829.png",
+    "true_smiles": "C1=CC=C(C=C1)C(C(=NO)C2=CC=CC=C2)O",
+    "pred_smiles": "C1=CC=C(C=C1)/C(=N\\O)/C(C2=CC=CC=C2)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/836.png",
+    "true_smiles": "CC(C(=O)O)NC(=O)OCC1C2=CC=CC=C2C3=CC=CC=C13",
+    "pred_smiles": "C[C@@H](C(=O)O)NC(=O)OCC1C2=C(C=CC=C2)C3=C1C=CC=C3",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/840.png",
+    "true_smiles": "CC1C(C(C(C(O1)OC2C(OC(CC2OC)OC3CCC4(C(C3)CCC56C4C(C(C7(C5(O6)CCC7C(=O)C)C)O)O)C)C)O)OC)O",
+    "pred_smiles": "CC(=O)[C@H]1CC[C@@]23[C@]1(C)[C@@H]([C@H]([C@@H]4[C@@]5(C)CC[C@@H](C[C@@H]5CC[C@]42O3)O[C@H]6C[C@@H]([C@@H]([C@@H](C)O6)O[C@H]7[C@@H]([C@@H]([C@@H]([C@@H](C)O7)O)OC)O)OC)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/844.png",
+    "true_smiles": "C1=CC(=CC=C1N)N=NC2=CC=C(C=C2)S(=O)(=O)[O-].[Na+]",
+    "pred_smiles": "C1=C(C=C=C(C1)N=NC2=C=C=C(C=C2)S(=O)(=O)[O-])N.[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/846.png",
+    "true_smiles": "C(C12C(C(OC(C3C=CC=CC=3)=O)C3OC(C(CCC4=NC=CC=C4C(=O)OCC4(C)C(C(OC(=O)C)C1OC(=O)C)C(OC(=O)C)C2(C3(O)C)O4)C)=O)OC(=O)C)OC(=O)C",
+    "pred_smiles": "C[C@@H]1CCC2=NC=CC=C2C(=O)OC[C@@]3(C)[C@@H]4[C@@H]([C@@H]([C@]5(COC(=O)C)[C@@H]([C@@H]([C@@H]([C@@](C)([C@]5([C@H]4OC(=O)C)O3)O)OC1=O)OC(=O)C6=CC=CC=C6)OC(=O)C)OC(=O)C)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/849.png",
+    "true_smiles": "CCC1(C2=C(COC1=O)C(=O)N3CC4=C5C(CCC6=C5C(=CC(=C6C)F)N=C4C3=C2)NC(=O)COCNC(=O)CNC(=O)C(CC7=CC=CC=C7)NC(=O)CNC(=O)CNC(=O)CCCCCN8C(=O)C=CC8=O)O",
+    "pred_smiles": "CC[C@@]1(C2=C(COC1=O)C(=O)N3CC4=C5[C@H](CCC6=C(C)C(=CC(=C65)N=C4C3=C2)F)NC(=O)COCNC(=O)CNC(=O)[C@H](CC7=CC=CC=C7)NC(=O)CNC(=O)CNC(=O)CCCCCN8C(=O)C=CC8=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/854.png",
+    "true_smiles": "C1C(C(C(C(O1)OC2COC(C(C2O)O)OC3COC(C(C3O)O)OC4COC(C(C4O)O)OC5COC(C(C5O)O)OC6COC(C(C6O)O)O)O)O)O",
+    "pred_smiles": "C1[C@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2CO[C@H]([C@@H]([C@H]2O)O)O[C@@H]3CO[C@H]([C@@H]([C@H]3O)O)O[C@@H]4CO[C@H]([C@@H]([C@H]4O)O)O[C@@H]5CO[C@H]([C@@H]([C@H]5O)O)O[C@@H]6CO[C@H]([C@@H]([C@H]6O)O)O)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/876.png",
+    "true_smiles": "C1=CC=C(C=C1)C(=O)C2C(O2)C3=CC=CC=C3[N+](=O)[O-]",
+    "pred_smiles": "C1=CC=C(C=C1)C(=O)[C@@H]2[C@@H](C3=C(C=CC=C3)[N+](=O)[O-])O2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/893.png",
+    "true_smiles": "CCCCCCC=CCCCCCCCC(=O)O",
+    "pred_smiles": "CCCCCC/C=C/CCCCCCCC(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/897.png",
+    "true_smiles": "CC(=O)C=C(C1=CC=CC=C1)[O-].CC(=O)C=C(C1=CC=CC=C1)[O-].CC(=O)C=C(C1=CC=CC=C1)[O-].[Cr+3]",
+    "pred_smiles": "CC(=O)/C=C(/C1=C=C=C=C=C1)\\[O-].CC(=O)/C=C(/C1=C=C=C=C=C1)\\[O-].CC(=O)/C=C(/C1=C=C=C=C=C1)\\[O-].[Cr+3]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/902.png",
+    "true_smiles": "[CH2-][Pt+4]1234(C5C1=C2[C-]3(C)C4=5)([CH2-])[CH2-]",
+    "pred_smiles": "[CH2-][P+]12C3=C4C2=C1[P+]4([CH2-])[CH2-]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/909.png",
+    "true_smiles": "CC(C)CCCC(C)(C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)O",
+    "pred_smiles": "CC(C)CCC[C@@](C)([C@H]1CC[C@H]2[C@@H]3CC=C4C[C@H](CC[C@]4(C)[C@H]3CC[C@@]21C)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/910.png",
+    "true_smiles": "CCCCCCCCC=CCCCCCCCC(=O)O",
+    "pred_smiles": "CCCCCCCC/C=C/CCCCCCCC(=O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/913.png",
+    "true_smiles": "CCC(C)C1C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC2C(=O)NCC(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)C(C)C)CC(=O)N)CO)CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C3CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)N3)CC(C)C)CC(=O)N)CCC(=O)N)CO)CCC(=O)O)C(C)O)NC(=O)C(CC(=O)O)NC(=O)C(C(C)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(C(C)C)NC(=O)C(C(C)C)N)C(=O)N1)CCCCN)CC(=O)N)CCC(=O)N)C(=O)NC(C(C)C)C(=O)NC(C(C)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NCC(=O)NC(C(C)O)C(=O)N5CCCC5C(=O)NC(CCCCN)C(=O)N6CCCC6C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC7=CN=CN7)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)O)C(=O)NCC(=O)NC(CC(=O)O)C(=O)NC(CC8=CC=CC=C8)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)CC)C(=O)N9CCCC9C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=C(C=C1)OS(=O)(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)O)CCC(=O)N)CC(=O)N)CCCCN)CCC(=O)O)CC(=O)O)CO)CC(C)C",
+    "pred_smiles": "CCCCC(CCCCC)CCC(CCCCC)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC(=O)O)CCC(CCC",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/918.png",
+    "true_smiles": "CC(C(=O)ON1C(=O)CCC1=O)NC(=O)OCC2=CC=CC=C2",
+    "pred_smiles": "C[C@@H](C(=O)ON1C(=O)CCC1=O)NC(=O)OCC2=CC=CC=C2",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/928.png",
+    "true_smiles": "CSCCC(C(=O)NCC(=O)O)N",
+    "pred_smiles": "CSCC[C@@H](C(=O)NCC(=O)O)N",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/933.png",
+    "true_smiles": "C1=CC=C(C(=C1)N=NC2=C3C=CC(=CC3=CC(=C2O)S(=O)(=O)[O-])S(=O)(=O)[O-])[As](=O)(O)O.[Na+].[Na+]",
+    "pred_smiles": "C1=CC(=C(C=C1)N=NC2=C3C=CC=CC3=CC(=C2O)S(=O)(=O)[O-])[As](=O)(O)O.C1=CC2=C(C=C1)C=C(C=C2)S(=O)(=O)[O-].[Na+].[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/940.png",
+    "true_smiles": "C1=CC=C(C=C1)CC(CC(=O)O)N.Cl",
+    "pred_smiles": "C1=CC=C(C=C1)C[C@@H](CC(=O)O)N.Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/943.png",
+    "true_smiles": "CC(=O)OC1CC2CC3(C1C45CCCC(C4C(C3(OC5)O)O)(C)C)C(=O)C2=C",
+    "pred_smiles": "C=C1[C@@H]2C[C@@H]([C@H]3[C@]45CCCC(C)(C)[C@H]5[C@@H]([C@]([C@]3(C2)C1=O)(O)OC4)O)OC(=O)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/946.png",
+    "true_smiles": "C1CCOC(=O)C1",
+    "pred_smiles": "C1CC(=O)OCC1.C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/948.png",
+    "true_smiles": "C1=C(SC(=C1)C#N)C=NNC(=S)N",
+    "pred_smiles": "C1=C(/C=N/NC(=S)N)SC(=C1)C#N",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/952.png",
+    "true_smiles": "C1=CC=C(C(=C1)C(=NO)N)N",
+    "pred_smiles": "C1=CC=C(C(=C1)/C(=N/O)/N)N",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/954.png",
+    "true_smiles": "COC1=CC(=CC(=C1O)OC)CC2COC(C2CO)C3=CC(=C(C(=C3)OC)OC4C(C(C(C(O4)CO)O)O)O)OC",
+    "pred_smiles": "COC1=CC(=CC(=C1O)OC)C[C@H]2CO[C@H](C3=CC(=C(C(=C3)OC)O[C@H]4[C@@H]([C@H]([C@@H]([C@@H](CO)O4)O)O)O)OC)[C@@H]2CO",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/956.png",
+    "true_smiles": "C(C1SCC2NC(=O)NC12)CCCC(=O)NCCCCCC(=O)ON1C(CC(S(O)(=O)=O)C1=O)=O.[NaH]",
+    "pred_smiles": "C(CCC(=O)ON1C(=O)CC(C1=O)S(=O)(=O)O)CCNC(=O)CCCC[C@H]2[C@@H]3[C@H](CS2)NC(=O)N3.[Na]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/957.png",
+    "true_smiles": "C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.C1=CC=C(C=C1)SC=[Ru](Cl)Cl",
+    "pred_smiles": "C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.C=1=C=C=C(C=C1)SC=[Ru](Cl)Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/965.png",
+    "true_smiles": "CCC=NNC1=C(C=C(C=C1)[N+](=O)[O-])[N+](=O)[O-]",
+    "pred_smiles": "CC/C=N/NC1=CC=C(C=C1[N+](=O)[O-])[N+](=O)[O-]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/970.png",
+    "true_smiles": "CC(C)N1C2=CC=CC=C2C(=C1C=CC(CC(=O)CC(=O)OC(C)(C)C)O)C3=CC=C(C=C3)F",
+    "pred_smiles": "CC(C)N1C2=CC=CC=C2C(=C1/C=C/C(CC(=O)CC(=O)OC(C)(C)C)O)C3=CC=C(C=C3)F",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/973.png",
+    "true_smiles": "CCC(CCC(C)C1CCC2C1(CCC3C2CC(=O)C4=CC(=O)CCC34C)C)C(C)C",
+    "pred_smiles": "CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC(=O)C4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C)C(C)C",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/976.png",
+    "true_smiles": "C1=CC(=CC=C1CC(C(=O)O)N)[N+](CCCl)(CCCl)[O-].Cl.Cl",
+    "pred_smiles": "C1=C(C=CC(=C1)[N+](CCCl)(CCCl)[O-])C[C@@H](C(=O)O)N.Cl.Cl",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/983.png",
+    "true_smiles": "CC1C(C(C(C(O1)OC2CCC3(C(C2)CCC4C3CCC5(C4(CCC5C6=CC(=O)OC6)O)C)C)O)OC)OC7C(C(C(C(O7)CO)O)O)O",
+    "pred_smiles": "C[C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)O[C@H]2CC[C@@]3(C)[C@H](CC[C@@H]4[C@@H]3CC[C@]5(C)[C@H](CC[C@]45O)C6=CC(=O)OC6)C2)O)OC)O[C@H]7[C@@H]([C@H]([C@@H]([C@@H](CO)O7)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/996.png",
+    "true_smiles": "CCCCCCCCCCCC(=O)N1CCCC1C(=O)[O-].[Na+]",
+    "pred_smiles": "CCCCCCCCCCCC(=O)N1CCC[C@H]1C(=O)[O-].[Na+]",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  },
+  {
+    "image_path": "output_images/999.png",
+    "true_smiles": "COC1=CC2=CC(=C1O)C3=C(C=CC(=C3)CC(C(CCCC2)O)O)O",
+    "pred_smiles": "COC1=CC2=CC(=C1O)C3=C(C=CC(=C3)C[C@@H]([C@@H](CCCC2)O)O)O",
+    "error": "SMILES mismatch",
+    "failure_type": "incorrect_prediction"
+  }
+]

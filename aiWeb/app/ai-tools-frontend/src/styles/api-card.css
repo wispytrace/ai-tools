@@ -1,0 +1,152 @@
+/* src/styles/api-card.css */
+
+/* 输入区域 */
+.input-group {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.input-helper {
+  margin-left: 6px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.text-input,
+.json-input {
+  width: 100%;
+  resize: vertical;
+  padding: 8px 10px;
+  font-size: 13px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  font-family: ui-monospace, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.text-input:focus,
+.json-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.2);
+}
+
+/* 文件列表 */
+.file-list {
+  margin: 6px 0 0;
+  padding-left: 16px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.file-item {
+  margin-bottom: 2px;
+}
+
+/* 按钮与状态 */
+.action-row {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.execute-btn {
+  border: none;
+  outline: none;
+  border-radius: 999px;
+  padding: 6px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: var(--accent);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.35);
+  transition: background 0.15s ease, box-shadow 0.15s ease,
+    transform 0.08s ease;
+}
+
+.execute-btn:hover {
+  background-color: var(--accent-hover);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.4);
+  transform: translateY(-1px);
+}
+
+.execute-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+}
+
+.execute-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.loading-text {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* 输出区域 */
+.output-json,
+.output-text {
+  margin-top: 4px;
+}
+
+.json-pretty,
+.text-pre {
+  background-color: #0b1020;
+  color: #e5e7eb;
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  font-size: 12px;
+  max-height: 320px;
+  overflow: auto;
+}
+
+/* 图片输出 */
+.output-image {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.output-img {
+  max-width: 100%;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+/* 文件输出 & 下载 */
+.output-file {
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.download-btn {
+  margin-top: 4px;
+  border: none;
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  color: var(--accent);
+  background-color: var(--accent-soft);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.download-btn:hover {
+  background-color: var(--accent);
+  color: white;
+}

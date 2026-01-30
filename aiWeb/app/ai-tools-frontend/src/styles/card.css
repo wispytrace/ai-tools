@@ -1,0 +1,84 @@
+/* src/styles/card.css */
+
+.api-card {
+  background-color: var(--bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  overflow: hidden;
+}
+
+/* 卡片头部 */
+.api-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.api-card-header:hover {
+  background-color: #f9fafb;
+}
+
+.api-card-title {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.api-card-description {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* 展开/收起按钮 */
+.api-card-toggle-btn {
+  border: none;
+  outline: none;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: var(--accent);
+  background-color: var(--accent-soft);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.api-card-toggle-btn:hover {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+/* 卡片主体 */
+.api-card-body {
+  padding: 0 16px 16px;
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.api-card-section {
+  margin-top: 16px;
+  padding-top: 8px;
+}
+
+.api-card-section + .api-card-section {
+  border-top: 1px dashed var(--border-color);
+}
+
+/* 详细说明 */
+.api-card-detail {
+  font-size: 14px;
+  color: #374151;
+  padding: 12px 0;
+}
+
+.api-card-detail p {
+  margin: 0 0 6px;
+}
+
+.api-card-detail ul {
+  margin: 4px 0 0 18px;
+  padding: 0;
+}

@@ -1,0 +1,13 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# Builds ultralytics/ultralytics:latest image on DockerHub https://hub.docker.com/r/ultralytics/ultralytics
+# Image is CUDA-optimized for YOLO single/multi-GPU training and inference
+
+# Start FROM PyTorch image https://hub.docker.com/r/pytorch/pytorch or nvcr.io/nvidia/pytorch:25.02-py3
+FROM ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddle:3.2.0
+
+RUN pip install paddleocr -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install  ultralytics -i  https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install fastapi -i  https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install python-multipart -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install uvicorn

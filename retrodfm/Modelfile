@@ -1,0 +1,20 @@
+# 1. 导入你的 GGUF 文件 (必须用绝对路径或相对路径)
+FROM /root/binghao/retrodfm/my_model.gguf
+
+# 2. 设置创造性参数 (可选)
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+
+# 3. 设置对话模板 (非常重要！)
+# 不同的模型(Llama3, Qwen, ChemLLM)模板不同。
+# 如果你不知道模板，可以先不写，或者去 HuggingFace 模型卡片页看 chat_template。
+# 下面是一个通用的 ChatML 模板示例（适用于很多国产模型）：
+TEMPLATE """<|im_start|>system
+{{ .System }}<|im_end|>
+<|im_start|>user
+{{ .Prompt }}<|im_end|>
+<|im_start|>assistant
+"""
+
+# 4. 设置系统提示词
+SYSTEM """你是一个化学领域的专家助手。"""

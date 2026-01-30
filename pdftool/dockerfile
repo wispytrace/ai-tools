@@ -1,0 +1,11 @@
+FROM byaidu/pdf2zh
+
+RUN apt update
+RUN apt-get install poppler-utils -y
+
+RUN pip install fastapi -i  https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install python-multipart -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install uvicorn -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install reportlab -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install pdf2image pillow pypdf img2pdf -i https://pypi.tuna.tsinghua.edu.cn/simple
+

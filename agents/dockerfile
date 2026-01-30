@@ -1,0 +1,44 @@
+FROM 192.168.1.101:7443/library/ubuntu:22.04
+
+# 设置环境变量，避免交互式安装
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Shanghai
+
+# 设置环境变量
+ENV LANG=C.UTF-8 \
+DEBIAN_FRONTEND=noninteractive
+
+# 更新系统并安装必要依赖
+RUN apt-get update && \
+apt-get upgrade -y && \
+apt-get install -y software-properties-common && \
+add-apt-repository ppa:deadsnakes/ppa && \
+apt-get update && \
+apt-get install -y python3.12 python3.12-venv python3-pip && \
+apt-get clean
+
+RUN pip install fastapi -i  https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install python-multipart -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install langchain -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install openai -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install pillow  -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install grandalf -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install json5 -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install tabulate -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install "rxnmapper[rdkit]" -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install uvicorn
+
+# 在基础镜像后添加
+RUN apt update && apt install -y \
+    libgl1 \
+    libglu1-mesa \
+    libglu1-mesa-dev \
+    libgl1-mesa-glx \
+    libgl1-mesa-dev \
+    libglib2.0-0 \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libgomp1 \
+    && rm -rf /var/lib/apt/lists/*

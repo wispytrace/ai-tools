@@ -1,0 +1,1220 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<sos>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<eos>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<unk>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<sos>": 0,
+      "<eos>": 1,
+      "<pad>": 2,
+      "<unk>": 3,
+      "#": 4,
+      "+": 5,
+      "-": 6,
+      ".": 7,
+      "/": 8,
+      "0": 9,
+      "1": 10,
+      "2": 11,
+      "3": 12,
+      "4": 13,
+      "5": 14,
+      "6": 15,
+      "7": 16,
+      "8": 17,
+      "=": 18,
+      "@": 19,
+      "A": 20,
+      "B": 21,
+      "C": 22,
+      "D": 23,
+      "E": 24,
+      "F": 25,
+      "G": 26,
+      "H": 27,
+      "I": 28,
+      "K": 29,
+      "L": 30,
+      "M": 31,
+      "N": 32,
+      "O": 33,
+      "P": 34,
+      "R": 35,
+      "S": 36,
+      "T": 37,
+      "U": 38,
+      "V": 39,
+      "W": 40,
+      "X": 41,
+      "Y": 42,
+      "Z": 43,
+      "[": 44,
+      "\\": 45,
+      "]": 46,
+      "a": 47,
+      "b": 48,
+      "c": 49,
+      "d": 50,
+      "e": 51,
+      "f": 52,
+      "g": 53,
+      "h": 54,
+      "i": 55,
+      "k": 56,
+      "l": 57,
+      "m": 58,
+      "n": 59,
+      "o": 60,
+      "p": 61,
+      "r": 62,
+      "s": 63,
+      "t": 64,
+      "u": 65,
+      "y": 66,
+      "][": 67,
+      "][=": 68,
+      "Br": 69,
+      "an": 70,
+      "ch": 71,
+      "Bran": 72,
+      "Branch": 73,
+      "Branch1": 74,
+      "NA": 75,
+      "NANA": 76,
+      "Ri": 77,
+      "ng": 78,
+      "Ring": 79,
+      "NANANANA": 80,
+      "Ring1": 81,
+      "NANANANANANANANA": 82,
+      "Branch2": 83,
+      "][#": 84,
+      "NANANANANANANANANANANANANANANANA": 85,
+      "Ring2": 86,
+      ".[": 87,
+      "].[": 88,
+      "Cl": 89,
+      "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA": 90,
+      "H1": 91,
+      "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA": 92,
+      "@@": 93,
+      "NH1": 94,
+      "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA": 95,
+      "H0": 96,
+      "Na": 97,
+      "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA": 98,
+      "Si": 99,
+      "][/": 100,
+      "OH0": 101,
+      "ClH0": 102,
+      "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA": 103,
+      "CH": 104,
+      "@][": 105,
+      "CH1": 106,
+      "2H": 107,
+      "CH2": 108,
+      "@@][": 109,
+      "CH0": 110,
+      "][\\": 111,
+      "Tb": 112,
+      "OH1": 113,
+      "NaH1": 114,
+      "FH0": 115,
+      "NH": 116,
+      "Fe": 117,
+      "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA": 118,
+      "Al": 119,
+      "Sn": 120,
+      "CH3": 121,
+      "Mg": 122,
+      "NH4": 123,
+      "BrH0": 124,
+      "Ca": 125,
+      "Zn": 126,
+      "Li": 127,
+      "Cu": 128,
+      "Se": 129,
+      "Branch3": 130,
+      "BH0": 131,
+      "SH0": 132,
+      "NH0": 133,
+      "Pd": 134,
+      "IH0": 135,
+      "Cr": 136,
+      "Co": 137,
+      "Ti": 138,
+      "Ni": 139,
+      "Mo": 140,
+      "Ba": 141,
+      "Zr": 142,
+      "Ru": 143,
+      "Rh": 144,
+      "Mn": 145,
+      "Pb": 146,
+      "Ag": 147,
+      "As": 148,
+      "Bi": 149,
+      "Hg": 150,
+      "Ge": 151,
+      "Sb": 152,
+      "Ce": 153,
+      "La": 154,
+      "SiH1": 155,
+      "Ir": 156,
+      "Sr": 157,
+      "Nb": 158,
+      "Cd": 159,
+      "H3": 160,
+      "Ring3": 161,
+      "KH1": 162,
+      "Pt": 163,
+      "Te": 164,
+      "In": 165,
+      "Gd": 166,
+      "Ga": 167,
+      "PH1": 168,
+      "Ta": 169,
+      "NH2": 170,
+      "Cs": 171,
+      "Hf": 172,
+      "Yb": 173,
+      "Nd": 174,
+      "H2": 175,
+      "Pr": 176,
+      "][-": 177,
+      "Eu": 178,
+      "NH3": 179,
+      "Au": 180,
+      "Sc": 181,
+      "Sm": 182,
+      "Rb": 183,
+      "Re": 184,
+      "Ho": 185,
+      "HH1": 186,
+      "Lu": 187,
+      "Tl": 188,
+      "Tm": 189,
+      "Dy": 190,
+      "][-/": 191,
+      "SiH2": 192,
+      "13": 193,
+      "Er": 194,
+      "15": 195,
+      "Be": 196,
+      "H4": 197,
+      "PH0": 198,
+      "LiH1": 199,
+      "][-\\": 200,
+      "SiH3": 201,
+      "AlH3": 202,
+      "13C": 203,
+      "BiH3": 204,
+      "BH3": 205,
+      "@@][=": 206,
+      "@][=": 207,
+      "SH1": 208,
+      "BH1": 209,
+      "Os": 210,
+      "ClH1": 211,
+      "SiH4": 212,
+      "15N": 213,
+      "18": 214,
+      "BH4": 215,
+      "SnH1": 216,
+      "10": 217,
+      "Th": 218,
+      "Xe": 219,
+      "GeH1": 220,
+      "GeH2": 221,
+      "15NH1": 222,
+      "15NH2": 223,
+      "18O": 224,
+      "17": 225,
+      "@+": 226,
+      "At": 227,
+      "He": 228,
+      "Kr": 229,
+      "Ne": 230,
+      "OH3": 231,
+      "AlH1": 232,
+      "AlH4": 233,
+      "SeH1": 234,
+      "SeH2": 235,
+      "PbH2": 236,
+      "13CH3": 237,
+      "15NH3": 238,
+      "10B": 239,
+      "17O": 240,
+      "0W": 241,
+      "0Ne": 242,
+      "11": 243,
+      "20Ne": 244,
+      "3Cu": 245,
+      "3He": 246,
+      "4Cd": 247,
+      "58": 248,
+      "63Cu": 249,
+      "Am": 250,
+      "Ar": 251,
+      "Bk": 252,
+      "Fm": 253,
+      "Md": 254,
+      "Np": 255,
+      "Pm": 256,
+      "Pu": 257,
+      "PH2": 258,
+      "Ra": 259,
+      "Rn": 260,
+      "Tc": 261,
+      "VH1": 262,
+      "@@+": 263,
+      "CH4": 264,
+      "2HH1": 265,
+      "AlH2": 266,
+      "RuH2": 267,
+      "GeH4": 268,
+      "TeH1": 269,
+      "TeH2": 270,
+      "InH3": 271,
+      "InH2": 272,
+      "GaH1": 273,
+      "GaH3": 274,
+      "GaH2": 275,
+      "CsH1": 276,
+      "RbH1": 277,
+      "13CH1": 278,
+      "13CH2": 279,
+      "13CH4": 280,
+      "180W": 281,
+      "10BH3": 282,
+      "114Cd": 283,
+      "58Ni": 284
+    },
+    "merges": [
+      [
+        "]",
+        "["
+      ],
+      [
+        "][",
+        "="
+      ],
+      [
+        "B",
+        "r"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "Br",
+        "an"
+      ],
+      [
+        "Bran",
+        "ch"
+      ],
+      [
+        "Branch",
+        "1"
+      ],
+      [
+        "N",
+        "A"
+      ],
+      [
+        "NA",
+        "NA"
+      ],
+      [
+        "R",
+        "i"
+      ],
+      [
+        "n",
+        "g"
+      ],
+      [
+        "Ri",
+        "ng"
+      ],
+      [
+        "NANA",
+        "NANA"
+      ],
+      [
+        "Ring",
+        "1"
+      ],
+      [
+        "NANANANA",
+        "NANANANA"
+      ],
+      [
+        "Branch",
+        "2"
+      ],
+      [
+        "][",
+        "#"
+      ],
+      [
+        "NANANANANANANANA",
+        "NANANANANANANANA"
+      ],
+      [
+        "Ring",
+        "2"
+      ],
+      [
+        ".",
+        "["
+      ],
+      [
+        "]",
+        ".["
+      ],
+      [
+        "C",
+        "l"
+      ],
+      [
+        "NANANANANANANANANANANANANANANANA",
+        "NANANANANANANANANANANANANANANANA"
+      ],
+      [
+        "H",
+        "1"
+      ],
+      [
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA",
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA"
+      ],
+      [
+        "@",
+        "@"
+      ],
+      [
+        "N",
+        "H1"
+      ],
+      [
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA",
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA"
+      ],
+      [
+        "H",
+        "0"
+      ],
+      [
+        "N",
+        "a"
+      ],
+      [
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA",
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA"
+      ],
+      [
+        "S",
+        "i"
+      ],
+      [
+        "][",
+        "/"
+      ],
+      [
+        "O",
+        "H0"
+      ],
+      [
+        "Cl",
+        "H0"
+      ],
+      [
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA",
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA"
+      ],
+      [
+        "C",
+        "H"
+      ],
+      [
+        "@",
+        "]["
+      ],
+      [
+        "C",
+        "H1"
+      ],
+      [
+        "2",
+        "H"
+      ],
+      [
+        "CH",
+        "2"
+      ],
+      [
+        "@@",
+        "]["
+      ],
+      [
+        "C",
+        "H0"
+      ],
+      [
+        "][",
+        "\\"
+      ],
+      [
+        "T",
+        "b"
+      ],
+      [
+        "O",
+        "H1"
+      ],
+      [
+        "Na",
+        "H1"
+      ],
+      [
+        "F",
+        "H0"
+      ],
+      [
+        "N",
+        "H"
+      ],
+      [
+        "F",
+        "e"
+      ],
+      [
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA",
+        "NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA"
+      ],
+      [
+        "A",
+        "l"
+      ],
+      [
+        "S",
+        "n"
+      ],
+      [
+        "CH",
+        "3"
+      ],
+      [
+        "M",
+        "g"
+      ],
+      [
+        "NH",
+        "4"
+      ],
+      [
+        "Br",
+        "H0"
+      ],
+      [
+        "C",
+        "a"
+      ],
+      [
+        "Z",
+        "n"
+      ],
+      [
+        "L",
+        "i"
+      ],
+      [
+        "C",
+        "u"
+      ],
+      [
+        "S",
+        "e"
+      ],
+      [
+        "Branch",
+        "3"
+      ],
+      [
+        "B",
+        "H0"
+      ],
+      [
+        "S",
+        "H0"
+      ],
+      [
+        "N",
+        "H0"
+      ],
+      [
+        "P",
+        "d"
+      ],
+      [
+        "I",
+        "H0"
+      ],
+      [
+        "C",
+        "r"
+      ],
+      [
+        "C",
+        "o"
+      ],
+      [
+        "T",
+        "i"
+      ],
+      [
+        "N",
+        "i"
+      ],
+      [
+        "M",
+        "o"
+      ],
+      [
+        "B",
+        "a"
+      ],
+      [
+        "Z",
+        "r"
+      ],
+      [
+        "R",
+        "u"
+      ],
+      [
+        "R",
+        "h"
+      ],
+      [
+        "M",
+        "n"
+      ],
+      [
+        "P",
+        "b"
+      ],
+      [
+        "A",
+        "g"
+      ],
+      [
+        "A",
+        "s"
+      ],
+      [
+        "B",
+        "i"
+      ],
+      [
+        "H",
+        "g"
+      ],
+      [
+        "G",
+        "e"
+      ],
+      [
+        "S",
+        "b"
+      ],
+      [
+        "C",
+        "e"
+      ],
+      [
+        "L",
+        "a"
+      ],
+      [
+        "Si",
+        "H1"
+      ],
+      [
+        "I",
+        "r"
+      ],
+      [
+        "S",
+        "r"
+      ],
+      [
+        "N",
+        "b"
+      ],
+      [
+        "C",
+        "d"
+      ],
+      [
+        "H",
+        "3"
+      ],
+      [
+        "Ring",
+        "3"
+      ],
+      [
+        "K",
+        "H1"
+      ],
+      [
+        "P",
+        "t"
+      ],
+      [
+        "T",
+        "e"
+      ],
+      [
+        "I",
+        "n"
+      ],
+      [
+        "G",
+        "d"
+      ],
+      [
+        "G",
+        "a"
+      ],
+      [
+        "P",
+        "H1"
+      ],
+      [
+        "T",
+        "a"
+      ],
+      [
+        "NH",
+        "2"
+      ],
+      [
+        "C",
+        "s"
+      ],
+      [
+        "H",
+        "f"
+      ],
+      [
+        "Y",
+        "b"
+      ],
+      [
+        "N",
+        "d"
+      ],
+      [
+        "H",
+        "2"
+      ],
+      [
+        "P",
+        "r"
+      ],
+      [
+        "][",
+        "-"
+      ],
+      [
+        "E",
+        "u"
+      ],
+      [
+        "NH",
+        "3"
+      ],
+      [
+        "A",
+        "u"
+      ],
+      [
+        "S",
+        "c"
+      ],
+      [
+        "S",
+        "m"
+      ],
+      [
+        "R",
+        "b"
+      ],
+      [
+        "R",
+        "e"
+      ],
+      [
+        "H",
+        "o"
+      ],
+      [
+        "H",
+        "H1"
+      ],
+      [
+        "L",
+        "u"
+      ],
+      [
+        "T",
+        "l"
+      ],
+      [
+        "T",
+        "m"
+      ],
+      [
+        "D",
+        "y"
+      ],
+      [
+        "][-",
+        "/"
+      ],
+      [
+        "Si",
+        "H2"
+      ],
+      [
+        "1",
+        "3"
+      ],
+      [
+        "E",
+        "r"
+      ],
+      [
+        "1",
+        "5"
+      ],
+      [
+        "B",
+        "e"
+      ],
+      [
+        "H",
+        "4"
+      ],
+      [
+        "P",
+        "H0"
+      ],
+      [
+        "Li",
+        "H1"
+      ],
+      [
+        "][-",
+        "\\"
+      ],
+      [
+        "Si",
+        "H3"
+      ],
+      [
+        "Al",
+        "H3"
+      ],
+      [
+        "13",
+        "C"
+      ],
+      [
+        "Bi",
+        "H3"
+      ],
+      [
+        "B",
+        "H3"
+      ],
+      [
+        "@@",
+        "][="
+      ],
+      [
+        "@",
+        "][="
+      ],
+      [
+        "S",
+        "H1"
+      ],
+      [
+        "B",
+        "H1"
+      ],
+      [
+        "O",
+        "s"
+      ],
+      [
+        "Cl",
+        "H1"
+      ],
+      [
+        "Si",
+        "H4"
+      ],
+      [
+        "15",
+        "N"
+      ],
+      [
+        "1",
+        "8"
+      ],
+      [
+        "B",
+        "H4"
+      ],
+      [
+        "Sn",
+        "H1"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "T",
+        "h"
+      ],
+      [
+        "X",
+        "e"
+      ],
+      [
+        "Ge",
+        "H1"
+      ],
+      [
+        "Ge",
+        "H2"
+      ],
+      [
+        "15",
+        "NH1"
+      ],
+      [
+        "15",
+        "NH2"
+      ],
+      [
+        "18",
+        "O"
+      ],
+      [
+        "1",
+        "7"
+      ],
+      [
+        "@",
+        "+"
+      ],
+      [
+        "A",
+        "t"
+      ],
+      [
+        "H",
+        "e"
+      ],
+      [
+        "K",
+        "r"
+      ],
+      [
+        "N",
+        "e"
+      ],
+      [
+        "O",
+        "H3"
+      ],
+      [
+        "Al",
+        "H1"
+      ],
+      [
+        "Al",
+        "H4"
+      ],
+      [
+        "Se",
+        "H1"
+      ],
+      [
+        "Se",
+        "H2"
+      ],
+      [
+        "Pb",
+        "H2"
+      ],
+      [
+        "13",
+        "CH3"
+      ],
+      [
+        "15",
+        "NH3"
+      ],
+      [
+        "10",
+        "B"
+      ],
+      [
+        "17",
+        "O"
+      ],
+      [
+        "0",
+        "W"
+      ],
+      [
+        "0",
+        "Ne"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "2",
+        "0Ne"
+      ],
+      [
+        "3",
+        "Cu"
+      ],
+      [
+        "3",
+        "He"
+      ],
+      [
+        "4",
+        "Cd"
+      ],
+      [
+        "5",
+        "8"
+      ],
+      [
+        "6",
+        "3Cu"
+      ],
+      [
+        "A",
+        "m"
+      ],
+      [
+        "A",
+        "r"
+      ],
+      [
+        "B",
+        "k"
+      ],
+      [
+        "F",
+        "m"
+      ],
+      [
+        "M",
+        "d"
+      ],
+      [
+        "N",
+        "p"
+      ],
+      [
+        "P",
+        "m"
+      ],
+      [
+        "P",
+        "u"
+      ],
+      [
+        "P",
+        "H2"
+      ],
+      [
+        "R",
+        "a"
+      ],
+      [
+        "R",
+        "n"
+      ],
+      [
+        "T",
+        "c"
+      ],
+      [
+        "V",
+        "H1"
+      ],
+      [
+        "@@",
+        "+"
+      ],
+      [
+        "CH",
+        "4"
+      ],
+      [
+        "2H",
+        "H1"
+      ],
+      [
+        "Al",
+        "H2"
+      ],
+      [
+        "Ru",
+        "H2"
+      ],
+      [
+        "Ge",
+        "H4"
+      ],
+      [
+        "Te",
+        "H1"
+      ],
+      [
+        "Te",
+        "H2"
+      ],
+      [
+        "In",
+        "H3"
+      ],
+      [
+        "In",
+        "H2"
+      ],
+      [
+        "Ga",
+        "H1"
+      ],
+      [
+        "Ga",
+        "H3"
+      ],
+      [
+        "Ga",
+        "H2"
+      ],
+      [
+        "Cs",
+        "H1"
+      ],
+      [
+        "Rb",
+        "H1"
+      ],
+      [
+        "13",
+        "CH1"
+      ],
+      [
+        "13",
+        "CH2"
+      ],
+      [
+        "13",
+        "CH4"
+      ],
+      [
+        "18",
+        "0W"
+      ],
+      [
+        "10",
+        "BH3"
+      ],
+      [
+        "11",
+        "4Cd"
+      ],
+      [
+        "58",
+        "Ni"
+      ]
+    ]
+  }
+}
